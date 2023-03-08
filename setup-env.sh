@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #git　install
-sudo apt-get install git-all
+sudo apt-get -y install git-all
 
 #pip3 install
-sudo apt-get install python3-pip
+sudo apt-get -y install python3-pip
 # pip自体のアップデート
 pip3 install -U pip
 
@@ -14,12 +14,12 @@ pip3 install -U pip
 sudo apt-get -y update
 sudo apt-get -y upgrade
 #Dependencies
-sudo apt-get install python3-setuptools
+sudo apt-get -y install python3-setuptools
 
 #Installing PyTorch
 #For latest PyTorch refer original Nvidia Jetson Nano thread - https://devtalk.nvidia.com/default/topic/1049071/jetson-nano/pytorch-for-jetson-nano/.
 wget https://nvidia.box.com/shared/static/yr6sjswn25z7oankw8zy1roow9cy5ur1.whl -O torch-1.6.0rc2-cp36-cp36m-linux_aarch64.whl
-sudo apt-get install python3-pip libopenblas-base
+sudo apt-get -y install python3-pip libopenblas-base
 #sudo pip3 install Cython
 #sudo pip3 install numpy torch-1.6.0-cp36-cp36m-linux_aarch64.whl
 sudo pip3 install Cython numpy
@@ -27,9 +27,9 @@ sudo pip3 install torch-1.6.0rc2-cp36-cp36m-linux_aarch64.whl
 
 #Installing torchvision
 #For latest torchvision refer original Nvidia Jetson Nano thread - https://devtalk.nvidia.com/default/topic/1049071/jetson-nano/pytorch-for-jetson-nano/.
-sudo apt-get install build-essential libssl-dev libffi-dev python3-dev
-sudo apt-get install libopenblas-base libopenmpi-dev
-sudo apt-get install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev
+sudo apt-get -y install build-essential libssl-dev libffi-dev python3-dev
+sudo apt-get -y install libopenblas-base libopenmpi-dev
+sudo apt-get -y install libjpeg-dev zlib1g-dev libpython3-dev libavcodec-dev libavformat-dev libswscale-dev
 #git clone --branch v0.7.0 https://github.com/pytorch/vision torchvision   # see below for version of torchvision to download
 #cd torchvision
 #export BUILD_VERSION=0.7.0
@@ -42,7 +42,7 @@ cd ../  # attempting to load torchvision from build dir will result in import er
 
 #Installing spaCy
 #Installing dependency sentencepiece
-sudo apt-get install cmake build-essential pkg-config libgoogle-perftools-dev
+sudo apt-get -y install cmake build-essential pkg-config libgoogle-perftools-dev
 git clone https://github.com/google/sentencepiece.git
 cd sentencepiece
 mkdir build
