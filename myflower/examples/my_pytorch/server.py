@@ -103,7 +103,7 @@ strategy = CustomStrategy(
 # Start Flower server
 fl.server.start_server(
     server_address="0.0.0.0:8080",
-    config=fl.server.ServerConfig(num_rounds=int(args[2]), round_timeout=timeout),
+    config=fl.server.ServerConfig(num_rounds=int(args[2]), round_timeout=timeout*100),#timeoutはsim用のパラメータなので実機でやる時は*100を無くしたほうがいいかも
     strategy=strategy,
 )
 
