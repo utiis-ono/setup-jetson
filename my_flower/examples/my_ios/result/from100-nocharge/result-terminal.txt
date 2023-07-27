@@ -1,0 +1,517 @@
+(my_env)
+14:57:08tokage@tokagenoMacBook-Pro [~/github/setup-jetson/my_flower/examples/my_ios] % python3 server.py -r 100 -d "100r-1device"
+INFO flwr 2023-06-20 15:06:20,638 | app.py:148 | Starting Flower server, config: ServerConfig(num_rounds=100, round_timeout=None)
+INFO flwr 2023-06-20 15:06:20,654 | app.py:168 | Flower ECE: gRPC server running (100 rounds), SSL is disabled
+INFO flwr 2023-06-20 15:06:20,654 | server.py:86 | Initializing global parameters
+INFO flwr 2023-06-20 15:06:20,654 | server.py:273 | Requesting initial parameters from one random client
+INFO flwr 2023-06-20 15:06:23,753 | server.py:277 | Received initial parameters from one random client
+INFO flwr 2023-06-20 15:06:23,754 | server.py:88 | Evaluating initial parameters
+INFO flwr 2023-06-20 15:06:23,754 | server.py:101 | FL starting
+DEBUG flwr 2023-06-20 15:06:23,754 | server.py:218 | fit_round 1: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:07:10,220 | server.py:232 | fit_round 1 received 1 results and 0 failures
+WARNING flwr 2023-06-20 15:07:10,231 | fedavg.py:243 | No fit_metrics_aggregation_fn provided
+Saving round 1 weights...
+DEBUG flwr 2023-06-20 15:07:10,238 | server.py:168 | evaluate_round 1: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:07:13,824 | server.py:182 | evaluate_round 1 received 1 results and 0 failures
+WARNING flwr 2023-06-20 15:07:13,824 | fedavg.py:274 | No evaluate_metrics_aggregation_fn provided
+DEBUG flwr 2023-06-20 15:07:13,825 | server.py:218 | fit_round 2: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:08:09,959 | server.py:232 | fit_round 2 received 1 results and 0 failures
+Saving round 2 weights...
+DEBUG flwr 2023-06-20 15:08:09,968 | server.py:168 | evaluate_round 2: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:08:13,622 | server.py:182 | evaluate_round 2 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:08:13,624 | server.py:218 | fit_round 3: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:09:12,198 | server.py:232 | fit_round 3 received 1 results and 0 failures
+Saving round 3 weights...
+DEBUG flwr 2023-06-20 15:09:12,226 | server.py:168 | evaluate_round 3: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:09:16,058 | server.py:182 | evaluate_round 3 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:09:16,058 | server.py:218 | fit_round 4: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:10:20,384 | server.py:232 | fit_round 4 received 1 results and 0 failures
+Saving round 4 weights...
+DEBUG flwr 2023-06-20 15:10:20,395 | server.py:168 | evaluate_round 4: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:10:24,562 | server.py:182 | evaluate_round 4 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:10:24,562 | server.py:218 | fit_round 5: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:11:33,980 | server.py:232 | fit_round 5 received 1 results and 0 failures
+Saving round 5 weights...
+DEBUG flwr 2023-06-20 15:11:33,991 | server.py:168 | evaluate_round 5: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:11:38,282 | server.py:182 | evaluate_round 5 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:11:38,284 | server.py:218 | fit_round 6: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:12:48,930 | server.py:232 | fit_round 6 received 1 results and 0 failures
+Saving round 6 weights...
+DEBUG flwr 2023-06-20 15:12:48,938 | server.py:168 | evaluate_round 6: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:12:53,225 | server.py:182 | evaluate_round 6 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:12:53,225 | server.py:218 | fit_round 7: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:14:05,161 | server.py:232 | fit_round 7 received 1 results and 0 failures
+Saving round 7 weights...
+DEBUG flwr 2023-06-20 15:14:05,174 | server.py:168 | evaluate_round 7: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:14:09,529 | server.py:182 | evaluate_round 7 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:14:09,529 | server.py:218 | fit_round 8: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:15:23,765 | server.py:232 | fit_round 8 received 1 results and 0 failures
+Saving round 8 weights...
+DEBUG flwr 2023-06-20 15:15:23,783 | server.py:168 | evaluate_round 8: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:15:28,171 | server.py:182 | evaluate_round 8 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:15:28,171 | server.py:218 | fit_round 9: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:16:44,583 | server.py:232 | fit_round 9 received 1 results and 0 failures
+Saving round 9 weights...
+DEBUG flwr 2023-06-20 15:16:44,596 | server.py:168 | evaluate_round 9: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:16:49,053 | server.py:182 | evaluate_round 9 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:16:49,053 | server.py:218 | fit_round 10: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:18:07,423 | server.py:232 | fit_round 10 received 1 results and 0 failures
+Saving round 10 weights...
+DEBUG flwr 2023-06-20 15:18:07,437 | server.py:168 | evaluate_round 10: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:18:11,831 | server.py:182 | evaluate_round 10 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:18:11,832 | server.py:218 | fit_round 11: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:19:30,132 | server.py:232 | fit_round 11 received 1 results and 0 failures
+Saving round 11 weights...
+DEBUG flwr 2023-06-20 15:19:30,144 | server.py:168 | evaluate_round 11: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:19:34,561 | server.py:182 | evaluate_round 11 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:19:34,561 | server.py:218 | fit_round 12: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:20:53,584 | server.py:232 | fit_round 12 received 1 results and 0 failures
+Saving round 12 weights...
+DEBUG flwr 2023-06-20 15:20:53,593 | server.py:168 | evaluate_round 12: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:20:58,166 | server.py:182 | evaluate_round 12 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:20:58,166 | server.py:218 | fit_round 13: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:22:19,282 | server.py:232 | fit_round 13 received 1 results and 0 failures
+Saving round 13 weights...
+DEBUG flwr 2023-06-20 15:22:19,296 | server.py:168 | evaluate_round 13: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:22:23,830 | server.py:182 | evaluate_round 13 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:22:23,831 | server.py:218 | fit_round 14: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:23:46,268 | server.py:232 | fit_round 14 received 1 results and 0 failures
+Saving round 14 weights...
+DEBUG flwr 2023-06-20 15:23:46,278 | server.py:168 | evaluate_round 14: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:23:51,126 | server.py:182 | evaluate_round 14 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:23:51,126 | server.py:218 | fit_round 15: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:25:13,180 | server.py:232 | fit_round 15 received 1 results and 0 failures
+Saving round 15 weights...
+DEBUG flwr 2023-06-20 15:25:13,191 | server.py:168 | evaluate_round 15: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:25:17,988 | server.py:182 | evaluate_round 15 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:25:17,988 | server.py:218 | fit_round 16: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:26:40,962 | server.py:232 | fit_round 16 received 1 results and 0 failures
+Saving round 16 weights...
+DEBUG flwr 2023-06-20 15:26:40,973 | server.py:168 | evaluate_round 16: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:26:45,911 | server.py:182 | evaluate_round 16 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:26:45,912 | server.py:218 | fit_round 17: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:28:09,984 | server.py:232 | fit_round 17 received 1 results and 0 failures
+Saving round 17 weights...
+DEBUG flwr 2023-06-20 15:28:09,992 | server.py:168 | evaluate_round 17: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:28:15,432 | server.py:182 | evaluate_round 17 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:28:15,433 | server.py:218 | fit_round 18: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:29:39,810 | server.py:232 | fit_round 18 received 1 results and 0 failures
+Saving round 18 weights...
+DEBUG flwr 2023-06-20 15:29:39,820 | server.py:168 | evaluate_round 18: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:29:44,935 | server.py:182 | evaluate_round 18 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:29:44,935 | server.py:218 | fit_round 19: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:31:09,856 | server.py:232 | fit_round 19 received 1 results and 0 failures
+Saving round 19 weights...
+DEBUG flwr 2023-06-20 15:31:09,874 | server.py:168 | evaluate_round 19: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:31:14,984 | server.py:182 | evaluate_round 19 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:31:14,984 | server.py:218 | fit_round 20: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:32:40,779 | server.py:232 | fit_round 20 received 1 results and 0 failures
+Saving round 20 weights...
+DEBUG flwr 2023-06-20 15:32:40,789 | server.py:168 | evaluate_round 20: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:32:46,125 | server.py:182 | evaluate_round 20 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:32:46,125 | server.py:218 | fit_round 21: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:34:13,514 | server.py:232 | fit_round 21 received 1 results and 0 failures
+Saving round 21 weights...
+DEBUG flwr 2023-06-20 15:34:13,527 | server.py:168 | evaluate_round 21: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:34:19,026 | server.py:182 | evaluate_round 21 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:34:19,026 | server.py:218 | fit_round 22: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:35:45,998 | server.py:232 | fit_round 22 received 1 results and 0 failures
+Saving round 22 weights...
+DEBUG flwr 2023-06-20 15:35:46,013 | server.py:168 | evaluate_round 22: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:35:51,500 | server.py:182 | evaluate_round 22 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:35:51,500 | server.py:218 | fit_round 23: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:37:19,437 | server.py:232 | fit_round 23 received 1 results and 0 failures
+Saving round 23 weights...
+DEBUG flwr 2023-06-20 15:37:19,455 | server.py:168 | evaluate_round 23: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:37:25,113 | server.py:182 | evaluate_round 23 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:37:25,114 | server.py:218 | fit_round 24: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:38:52,836 | server.py:232 | fit_round 24 received 1 results and 0 failures
+Saving round 24 weights...
+DEBUG flwr 2023-06-20 15:38:52,845 | server.py:168 | evaluate_round 24: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:38:58,421 | server.py:182 | evaluate_round 24 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:38:58,421 | server.py:218 | fit_round 25: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:40:26,856 | server.py:232 | fit_round 25 received 1 results and 0 failures
+Saving round 25 weights...
+DEBUG flwr 2023-06-20 15:40:26,868 | server.py:168 | evaluate_round 25: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:40:32,627 | server.py:182 | evaluate_round 25 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:40:32,627 | server.py:218 | fit_round 26: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:42:00,957 | server.py:232 | fit_round 26 received 1 results and 0 failures
+Saving round 26 weights...
+DEBUG flwr 2023-06-20 15:42:00,967 | server.py:168 | evaluate_round 26: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:42:06,679 | server.py:182 | evaluate_round 26 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:42:06,680 | server.py:218 | fit_round 27: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:43:34,921 | server.py:232 | fit_round 27 received 1 results and 0 failures
+Saving round 27 weights...
+DEBUG flwr 2023-06-20 15:43:34,933 | server.py:168 | evaluate_round 27: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:43:40,847 | server.py:182 | evaluate_round 27 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:43:40,847 | server.py:218 | fit_round 28: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:45:10,269 | server.py:232 | fit_round 28 received 1 results and 0 failures
+Saving round 28 weights...
+DEBUG flwr 2023-06-20 15:45:10,285 | server.py:168 | evaluate_round 28: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:45:15,918 | server.py:182 | evaluate_round 28 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:45:15,918 | server.py:218 | fit_round 29: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:46:45,815 | server.py:232 | fit_round 29 received 1 results and 0 failures
+Saving round 29 weights...
+DEBUG flwr 2023-06-20 15:46:45,824 | server.py:168 | evaluate_round 29: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:46:51,648 | server.py:182 | evaluate_round 29 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:46:51,648 | server.py:218 | fit_round 30: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:48:22,875 | server.py:232 | fit_round 30 received 1 results and 0 failures
+Saving round 30 weights...
+DEBUG flwr 2023-06-20 15:48:22,887 | server.py:168 | evaluate_round 30: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:48:28,964 | server.py:182 | evaluate_round 30 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:48:28,964 | server.py:218 | fit_round 31: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:50:00,713 | server.py:232 | fit_round 31 received 1 results and 0 failures
+Saving round 31 weights...
+DEBUG flwr 2023-06-20 15:50:00,727 | server.py:168 | evaluate_round 31: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:50:06,677 | server.py:182 | evaluate_round 31 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:50:06,677 | server.py:218 | fit_round 32: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:51:37,821 | server.py:232 | fit_round 32 received 1 results and 0 failures
+Saving round 32 weights...
+DEBUG flwr 2023-06-20 15:51:37,832 | server.py:168 | evaluate_round 32: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:51:43,742 | server.py:182 | evaluate_round 32 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:51:43,742 | server.py:218 | fit_round 33: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:53:15,951 | server.py:232 | fit_round 33 received 1 results and 0 failures
+Saving round 33 weights...
+DEBUG flwr 2023-06-20 15:53:15,964 | server.py:168 | evaluate_round 33: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:53:21,960 | server.py:182 | evaluate_round 33 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:53:21,960 | server.py:218 | fit_round 34: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:54:54,638 | server.py:232 | fit_round 34 received 1 results and 0 failures
+Saving round 34 weights...
+DEBUG flwr 2023-06-20 15:54:54,651 | server.py:168 | evaluate_round 34: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:55:00,896 | server.py:182 | evaluate_round 34 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:55:00,896 | server.py:218 | fit_round 35: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:56:33,477 | server.py:232 | fit_round 35 received 1 results and 0 failures
+Saving round 35 weights...
+DEBUG flwr 2023-06-20 15:56:33,488 | server.py:168 | evaluate_round 35: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:56:39,765 | server.py:182 | evaluate_round 35 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:56:39,765 | server.py:218 | fit_round 36: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:58:13,534 | server.py:232 | fit_round 36 received 1 results and 0 failures
+Saving round 36 weights...
+DEBUG flwr 2023-06-20 15:58:13,550 | server.py:168 | evaluate_round 36: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:58:19,701 | server.py:182 | evaluate_round 36 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:58:19,701 | server.py:218 | fit_round 37: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:59:52,790 | server.py:232 | fit_round 37 received 1 results and 0 failures
+Saving round 37 weights...
+DEBUG flwr 2023-06-20 15:59:52,805 | server.py:168 | evaluate_round 37: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 15:59:59,037 | server.py:182 | evaluate_round 37 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 15:59:59,038 | server.py:218 | fit_round 38: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:01:33,598 | server.py:232 | fit_round 38 received 1 results and 0 failures
+Saving round 38 weights...
+DEBUG flwr 2023-06-20 16:01:33,611 | server.py:168 | evaluate_round 38: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:01:39,537 | server.py:182 | evaluate_round 38 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:01:39,538 | server.py:218 | fit_round 39: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:03:13,883 | server.py:232 | fit_round 39 received 1 results and 0 failures
+Saving round 39 weights...
+DEBUG flwr 2023-06-20 16:03:13,899 | server.py:168 | evaluate_round 39: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:03:20,200 | server.py:182 | evaluate_round 39 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:03:20,200 | server.py:218 | fit_round 40: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:04:55,074 | server.py:232 | fit_round 40 received 1 results and 0 failures
+Saving round 40 weights...
+DEBUG flwr 2023-06-20 16:04:55,087 | server.py:168 | evaluate_round 40: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:05:01,523 | server.py:182 | evaluate_round 40 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:05:01,524 | server.py:218 | fit_round 41: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:06:37,943 | server.py:232 | fit_round 41 received 1 results and 0 failures
+Saving round 41 weights...
+DEBUG flwr 2023-06-20 16:06:37,959 | server.py:168 | evaluate_round 41: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:06:44,515 | server.py:182 | evaluate_round 41 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:06:44,515 | server.py:218 | fit_round 42: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:08:20,164 | server.py:232 | fit_round 42 received 1 results and 0 failures
+Saving round 42 weights...
+DEBUG flwr 2023-06-20 16:08:20,179 | server.py:168 | evaluate_round 42: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:08:26,673 | server.py:182 | evaluate_round 42 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:08:26,673 | server.py:218 | fit_round 43: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:10:02,305 | server.py:232 | fit_round 43 received 1 results and 0 failures
+Saving round 43 weights...
+DEBUG flwr 2023-06-20 16:10:02,317 | server.py:168 | evaluate_round 43: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:10:08,806 | server.py:182 | evaluate_round 43 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:10:08,806 | server.py:218 | fit_round 44: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:11:44,441 | server.py:232 | fit_round 44 received 1 results and 0 failures
+Saving round 44 weights...
+DEBUG flwr 2023-06-20 16:11:44,453 | server.py:168 | evaluate_round 44: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:11:50,883 | server.py:182 | evaluate_round 44 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:11:50,883 | server.py:218 | fit_round 45: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:13:26,464 | server.py:232 | fit_round 45 received 1 results and 0 failures
+Saving round 45 weights...
+DEBUG flwr 2023-06-20 16:13:26,481 | server.py:168 | evaluate_round 45: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:13:32,955 | server.py:182 | evaluate_round 45 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:13:32,956 | server.py:218 | fit_round 46: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:15:08,860 | server.py:232 | fit_round 46 received 1 results and 0 failures
+Saving round 46 weights...
+DEBUG flwr 2023-06-20 16:15:08,874 | server.py:168 | evaluate_round 46: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:15:15,428 | server.py:182 | evaluate_round 46 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:15:15,429 | server.py:218 | fit_round 47: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:16:51,914 | server.py:232 | fit_round 47 received 1 results and 0 failures
+Saving round 47 weights...
+DEBUG flwr 2023-06-20 16:16:51,927 | server.py:168 | evaluate_round 47: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:16:58,381 | server.py:182 | evaluate_round 47 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:16:58,382 | server.py:218 | fit_round 48: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:18:35,465 | server.py:232 | fit_round 48 received 1 results and 0 failures
+Saving round 48 weights...
+DEBUG flwr 2023-06-20 16:18:35,475 | server.py:168 | evaluate_round 48: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:18:42,105 | server.py:182 | evaluate_round 48 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:18:42,106 | server.py:218 | fit_round 49: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:20:19,190 | server.py:232 | fit_round 49 received 1 results and 0 failures
+Saving round 49 weights...
+DEBUG flwr 2023-06-20 16:20:19,199 | server.py:168 | evaluate_round 49: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:20:25,767 | server.py:182 | evaluate_round 49 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:20:25,767 | server.py:218 | fit_round 50: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:22:03,686 | server.py:232 | fit_round 50 received 1 results and 0 failures
+Saving round 50 weights...
+DEBUG flwr 2023-06-20 16:22:03,701 | server.py:168 | evaluate_round 50: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:22:10,322 | server.py:182 | evaluate_round 50 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:22:10,322 | server.py:218 | fit_round 51: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:23:48,093 | server.py:232 | fit_round 51 received 1 results and 0 failures
+Saving round 51 weights...
+DEBUG flwr 2023-06-20 16:23:48,102 | server.py:168 | evaluate_round 51: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:23:54,728 | server.py:182 | evaluate_round 51 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:23:54,729 | server.py:218 | fit_round 52: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:25:32,620 | server.py:232 | fit_round 52 received 1 results and 0 failures
+Saving round 52 weights...
+DEBUG flwr 2023-06-20 16:25:32,627 | server.py:168 | evaluate_round 52: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:25:39,286 | server.py:182 | evaluate_round 52 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:25:39,287 | server.py:218 | fit_round 53: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:27:18,504 | server.py:232 | fit_round 53 received 1 results and 0 failures
+Saving round 53 weights...
+DEBUG flwr 2023-06-20 16:27:18,514 | server.py:168 | evaluate_round 53: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:27:28,489 | server.py:182 | evaluate_round 53 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:27:28,490 | server.py:218 | fit_round 54: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:29:07,530 | server.py:232 | fit_round 54 received 1 results and 0 failures
+Saving round 54 weights...
+DEBUG flwr 2023-06-20 16:29:07,542 | server.py:168 | evaluate_round 54: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:29:14,572 | server.py:182 | evaluate_round 54 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:29:14,572 | server.py:218 | fit_round 55: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:30:54,671 | server.py:232 | fit_round 55 received 1 results and 0 failures
+Saving round 55 weights...
+DEBUG flwr 2023-06-20 16:30:54,683 | server.py:168 | evaluate_round 55: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:31:01,890 | server.py:182 | evaluate_round 55 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:31:01,890 | server.py:218 | fit_round 56: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:32:42,381 | server.py:232 | fit_round 56 received 1 results and 0 failures
+Saving round 56 weights...
+DEBUG flwr 2023-06-20 16:32:42,391 | server.py:168 | evaluate_round 56: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:32:49,225 | server.py:182 | evaluate_round 56 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:32:49,225 | server.py:218 | fit_round 57: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:34:29,611 | server.py:232 | fit_round 57 received 1 results and 0 failures
+Saving round 57 weights...
+DEBUG flwr 2023-06-20 16:34:29,623 | server.py:168 | evaluate_round 57: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:34:36,980 | server.py:182 | evaluate_round 57 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:34:36,980 | server.py:218 | fit_round 58: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:36:16,838 | server.py:232 | fit_round 58 received 1 results and 0 failures
+Saving round 58 weights...
+DEBUG flwr 2023-06-20 16:36:16,846 | server.py:168 | evaluate_round 58: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:36:23,782 | server.py:182 | evaluate_round 58 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:36:23,783 | server.py:218 | fit_round 59: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:38:03,676 | server.py:232 | fit_round 59 received 1 results and 0 failures
+Saving round 59 weights...
+DEBUG flwr 2023-06-20 16:38:03,687 | server.py:168 | evaluate_round 59: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:38:10,766 | server.py:182 | evaluate_round 59 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:38:10,766 | server.py:218 | fit_round 60: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:39:50,945 | server.py:232 | fit_round 60 received 1 results and 0 failures
+Saving round 60 weights...
+DEBUG flwr 2023-06-20 16:39:50,954 | server.py:168 | evaluate_round 60: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:39:58,039 | server.py:182 | evaluate_round 60 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:39:58,039 | server.py:218 | fit_round 61: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:41:38,520 | server.py:232 | fit_round 61 received 1 results and 0 failures
+Saving round 61 weights...
+DEBUG flwr 2023-06-20 16:41:38,534 | server.py:168 | evaluate_round 61: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:41:45,542 | server.py:182 | evaluate_round 61 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:41:45,543 | server.py:218 | fit_round 62: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:43:26,103 | server.py:232 | fit_round 62 received 1 results and 0 failures
+Saving round 62 weights...
+DEBUG flwr 2023-06-20 16:43:26,116 | server.py:168 | evaluate_round 62: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:43:33,318 | server.py:182 | evaluate_round 62 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:43:33,319 | server.py:218 | fit_round 63: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:45:14,899 | server.py:232 | fit_round 63 received 1 results and 0 failures
+Saving round 63 weights...
+DEBUG flwr 2023-06-20 16:45:14,913 | server.py:168 | evaluate_round 63: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:45:22,044 | server.py:182 | evaluate_round 63 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:45:22,044 | server.py:218 | fit_round 64: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:47:03,605 | server.py:232 | fit_round 64 received 1 results and 0 failures
+Saving round 64 weights...
+DEBUG flwr 2023-06-20 16:47:03,621 | server.py:168 | evaluate_round 64: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:47:10,749 | server.py:182 | evaluate_round 64 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:47:10,749 | server.py:218 | fit_round 65: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:48:52,498 | server.py:232 | fit_round 65 received 1 results and 0 failures
+Saving round 65 weights...
+DEBUG flwr 2023-06-20 16:48:52,521 | server.py:168 | evaluate_round 65: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:49:00,192 | server.py:182 | evaluate_round 65 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:49:00,193 | server.py:218 | fit_round 66: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:50:42,138 | server.py:232 | fit_round 66 received 1 results and 0 failures
+Saving round 66 weights...
+DEBUG flwr 2023-06-20 16:50:42,156 | server.py:168 | evaluate_round 66: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:50:49,868 | server.py:182 | evaluate_round 66 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:50:49,869 | server.py:218 | fit_round 67: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:52:32,610 | server.py:232 | fit_round 67 received 1 results and 0 failures
+Saving round 67 weights...
+DEBUG flwr 2023-06-20 16:52:32,628 | server.py:168 | evaluate_round 67: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:52:39,717 | server.py:182 | evaluate_round 67 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:52:39,717 | server.py:218 | fit_round 68: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:54:22,250 | server.py:232 | fit_round 68 received 1 results and 0 failures
+Saving round 68 weights...
+DEBUG flwr 2023-06-20 16:54:22,259 | server.py:168 | evaluate_round 68: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:54:29,332 | server.py:182 | evaluate_round 68 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:54:29,332 | server.py:218 | fit_round 69: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:56:13,288 | server.py:232 | fit_round 69 received 1 results and 0 failures
+Saving round 69 weights...
+DEBUG flwr 2023-06-20 16:56:13,297 | server.py:168 | evaluate_round 69: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:56:20,483 | server.py:182 | evaluate_round 69 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:56:20,484 | server.py:218 | fit_round 70: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:58:04,700 | server.py:232 | fit_round 70 received 1 results and 0 failures
+Saving round 70 weights...
+DEBUG flwr 2023-06-20 16:58:04,710 | server.py:168 | evaluate_round 70: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:58:11,889 | server.py:182 | evaluate_round 70 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 16:58:11,889 | server.py:218 | fit_round 71: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 16:59:56,739 | server.py:232 | fit_round 71 received 1 results and 0 failures
+Saving round 71 weights...
+DEBUG flwr 2023-06-20 16:59:56,747 | server.py:168 | evaluate_round 71: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:00:04,020 | server.py:182 | evaluate_round 71 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:00:04,020 | server.py:218 | fit_round 72: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:01:48,203 | server.py:232 | fit_round 72 received 1 results and 0 failures
+Saving round 72 weights...
+DEBUG flwr 2023-06-20 17:01:48,223 | server.py:168 | evaluate_round 72: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:01:55,523 | server.py:182 | evaluate_round 72 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:01:55,524 | server.py:218 | fit_round 73: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:03:40,158 | server.py:232 | fit_round 73 received 1 results and 0 failures
+Saving round 73 weights...
+DEBUG flwr 2023-06-20 17:03:40,168 | server.py:168 | evaluate_round 73: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:03:47,521 | server.py:182 | evaluate_round 73 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:03:47,522 | server.py:218 | fit_round 74: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:05:32,178 | server.py:232 | fit_round 74 received 1 results and 0 failures
+Saving round 74 weights...
+DEBUG flwr 2023-06-20 17:05:32,187 | server.py:168 | evaluate_round 74: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:05:39,427 | server.py:182 | evaluate_round 74 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:05:39,428 | server.py:218 | fit_round 75: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:07:26,444 | server.py:232 | fit_round 75 received 1 results and 0 failures
+Saving round 75 weights...
+DEBUG flwr 2023-06-20 17:07:26,455 | server.py:168 | evaluate_round 75: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:07:33,911 | server.py:182 | evaluate_round 75 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:07:33,912 | server.py:218 | fit_round 76: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:09:21,021 | server.py:232 | fit_round 76 received 1 results and 0 failures
+Saving round 76 weights...
+DEBUG flwr 2023-06-20 17:09:21,030 | server.py:168 | evaluate_round 76: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:09:29,239 | server.py:182 | evaluate_round 76 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:09:29,240 | server.py:218 | fit_round 77: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:11:14,822 | server.py:232 | fit_round 77 received 1 results and 0 failures
+Saving round 77 weights...
+DEBUG flwr 2023-06-20 17:11:14,828 | server.py:168 | evaluate_round 77: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:11:22,318 | server.py:182 | evaluate_round 77 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:11:22,319 | server.py:218 | fit_round 78: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:13:07,698 | server.py:232 | fit_round 78 received 1 results and 0 failures
+Saving round 78 weights...
+DEBUG flwr 2023-06-20 17:13:07,703 | server.py:168 | evaluate_round 78: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:13:15,064 | server.py:182 | evaluate_round 78 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:13:15,064 | server.py:218 | fit_round 79: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:14:59,925 | server.py:232 | fit_round 79 received 1 results and 0 failures
+Saving round 79 weights...
+DEBUG flwr 2023-06-20 17:14:59,943 | server.py:168 | evaluate_round 79: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:15:07,251 | server.py:182 | evaluate_round 79 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:15:07,251 | server.py:218 | fit_round 80: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:16:53,956 | server.py:232 | fit_round 80 received 1 results and 0 failures
+Saving round 80 weights...
+DEBUG flwr 2023-06-20 17:16:53,966 | server.py:168 | evaluate_round 80: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:17:01,399 | server.py:182 | evaluate_round 80 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:17:01,400 | server.py:218 | fit_round 81: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:18:46,566 | server.py:232 | fit_round 81 received 1 results and 0 failures
+Saving round 81 weights...
+DEBUG flwr 2023-06-20 17:18:46,575 | server.py:168 | evaluate_round 81: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:18:53,869 | server.py:182 | evaluate_round 81 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:18:53,869 | server.py:218 | fit_round 82: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:20:41,042 | server.py:232 | fit_round 82 received 1 results and 0 failures
+Saving round 82 weights...
+DEBUG flwr 2023-06-20 17:20:41,049 | server.py:168 | evaluate_round 82: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:20:48,268 | server.py:182 | evaluate_round 82 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:20:48,268 | server.py:218 | fit_round 83: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:22:35,116 | server.py:232 | fit_round 83 received 1 results and 0 failures
+Saving round 83 weights...
+DEBUG flwr 2023-06-20 17:22:35,120 | server.py:168 | evaluate_round 83: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:22:42,447 | server.py:182 | evaluate_round 83 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:22:42,447 | server.py:218 | fit_round 84: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:24:29,057 | server.py:232 | fit_round 84 received 1 results and 0 failures
+Saving round 84 weights...
+DEBUG flwr 2023-06-20 17:24:29,061 | server.py:168 | evaluate_round 84: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:24:36,393 | server.py:182 | evaluate_round 84 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:24:36,393 | server.py:218 | fit_round 85: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:26:21,426 | server.py:232 | fit_round 85 received 1 results and 0 failures
+Saving round 85 weights...
+DEBUG flwr 2023-06-20 17:26:21,436 | server.py:168 | evaluate_round 85: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:26:28,630 | server.py:182 | evaluate_round 85 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:26:28,630 | server.py:218 | fit_round 86: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:28:12,926 | server.py:232 | fit_round 86 received 1 results and 0 failures
+Saving round 86 weights...
+DEBUG flwr 2023-06-20 17:28:12,936 | server.py:168 | evaluate_round 86: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:28:20,010 | server.py:182 | evaluate_round 86 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:28:20,010 | server.py:218 | fit_round 87: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:30:02,349 | server.py:232 | fit_round 87 received 1 results and 0 failures
+Saving round 87 weights...
+DEBUG flwr 2023-06-20 17:30:02,360 | server.py:168 | evaluate_round 87: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:30:09,573 | server.py:182 | evaluate_round 87 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:30:09,574 | server.py:218 | fit_round 88: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:31:52,733 | server.py:232 | fit_round 88 received 1 results and 0 failures
+Saving round 88 weights...
+DEBUG flwr 2023-06-20 17:31:52,748 | server.py:168 | evaluate_round 88: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:31:59,994 | server.py:182 | evaluate_round 88 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:31:59,996 | server.py:218 | fit_round 89: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:33:42,891 | server.py:232 | fit_round 89 received 1 results and 0 failures
+Saving round 89 weights...
+DEBUG flwr 2023-06-20 17:33:42,904 | server.py:168 | evaluate_round 89: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:33:50,640 | server.py:182 | evaluate_round 89 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:33:50,640 | server.py:218 | fit_round 90: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:35:33,494 | server.py:232 | fit_round 90 received 1 results and 0 failures
+Saving round 90 weights...
+DEBUG flwr 2023-06-20 17:35:33,507 | server.py:168 | evaluate_round 90: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:35:40,562 | server.py:182 | evaluate_round 90 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:35:40,563 | server.py:218 | fit_round 91: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:37:22,452 | server.py:232 | fit_round 91 received 1 results and 0 failures
+Saving round 91 weights...
+DEBUG flwr 2023-06-20 17:37:22,469 | server.py:168 | evaluate_round 91: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:37:29,770 | server.py:182 | evaluate_round 91 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:37:29,770 | server.py:218 | fit_round 92: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:39:12,127 | server.py:232 | fit_round 92 received 1 results and 0 failures
+Saving round 92 weights...
+DEBUG flwr 2023-06-20 17:39:12,139 | server.py:168 | evaluate_round 92: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:39:19,403 | server.py:182 | evaluate_round 92 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:39:19,404 | server.py:218 | fit_round 93: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:41:02,208 | server.py:232 | fit_round 93 received 1 results and 0 failures
+Saving round 93 weights...
+DEBUG flwr 2023-06-20 17:41:02,224 | server.py:168 | evaluate_round 93: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:41:09,512 | server.py:182 | evaluate_round 93 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:41:09,513 | server.py:218 | fit_round 94: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:42:53,319 | server.py:232 | fit_round 94 received 1 results and 0 failures
+Saving round 94 weights...
+DEBUG flwr 2023-06-20 17:42:53,334 | server.py:168 | evaluate_round 94: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:43:00,898 | server.py:182 | evaluate_round 94 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:43:00,898 | server.py:218 | fit_round 95: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:44:42,212 | server.py:232 | fit_round 95 received 1 results and 0 failures
+Saving round 95 weights...
+DEBUG flwr 2023-06-20 17:44:42,223 | server.py:168 | evaluate_round 95: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:44:49,398 | server.py:182 | evaluate_round 95 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:44:49,398 | server.py:218 | fit_round 96: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:46:30,758 | server.py:232 | fit_round 96 received 1 results and 0 failures
+Saving round 96 weights...
+DEBUG flwr 2023-06-20 17:46:30,774 | server.py:168 | evaluate_round 96: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:46:37,999 | server.py:182 | evaluate_round 96 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:46:38,000 | server.py:218 | fit_round 97: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:48:21,483 | server.py:232 | fit_round 97 received 1 results and 0 failures
+Saving round 97 weights...
+DEBUG flwr 2023-06-20 17:48:21,500 | server.py:168 | evaluate_round 97: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:48:28,513 | server.py:182 | evaluate_round 97 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:48:28,514 | server.py:218 | fit_round 98: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:50:11,281 | server.py:232 | fit_round 98 received 1 results and 0 failures
+Saving round 98 weights...
+DEBUG flwr 2023-06-20 17:50:11,301 | server.py:168 | evaluate_round 98: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:50:18,416 | server.py:182 | evaluate_round 98 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:50:18,417 | server.py:218 | fit_round 99: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:52:01,617 | server.py:232 | fit_round 99 received 1 results and 0 failures
+Saving round 99 weights...
+DEBUG flwr 2023-06-20 17:52:01,630 | server.py:168 | evaluate_round 99: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:52:09,067 | server.py:182 | evaluate_round 99 received 1 results and 0 failures
+DEBUG flwr 2023-06-20 17:52:09,067 | server.py:218 | fit_round 100: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:53:52,331 | server.py:232 | fit_round 100 received 1 results and 0 failures
+Saving round 100 weights...
+DEBUG flwr 2023-06-20 17:53:52,350 | server.py:168 | evaluate_round 100: strategy sampled 1 clients (out of 1)
+DEBUG flwr 2023-06-20 17:53:59,560 | server.py:182 | evaluate_round 100 received 1 results and 0 failures
+INFO flwr 2023-06-20 17:53:59,561 | server.py:147 | FL finished in 10055.645107125001
+INFO flwr 2023-06-20 17:53:59,570 | app.py:218 | app_fit: losses_distributed [(1, 1.4762299542780966e-06), (2, 9.31322685637781e-10)]
+INFO flwr 2023-06-20 17:53:59,571 | app.py:219 | app_fit: metrics_distributed_fit {}
+INFO flwr 2023-06-20 17:53:59,571 | app.py:220 | app_fit: metrics_distributed {}
+INFO flwr 2023-06-20 17:53:59,571 | app.py:221 | app_fit: losses_centralized []
+INFO flwr 2023-06-20 17:53:59,571 | app.py:222 | app_fit: metrics_centralized {}

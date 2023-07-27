@@ -1,0 +1,30 @@
+INFO flower 2023-07-24 15:11:32,843 | app.py:131 | Starting Flower server, config: ServerConfig(num_rounds=1, round_timeout=100)
+INFO flower 2023-07-24 15:11:32,846 | app.py:144 | Flower ECE: gRPC server running (1 rounds), SSL is disabled
+INFO flower 2023-07-24 15:11:32,846 | server.py:86 | Initializing global parameters
+INFO flower 2023-07-24 15:11:32,846 | server.py:270 | Requesting initial parameters from one random client
+INFO flower 2023-07-24 15:11:36,883 | server.py:274 | Received initial parameters from one random client
+INFO flower 2023-07-24 15:11:36,883 | server.py:88 | Evaluating initial parameters
+INFO flower 2023-07-24 15:11:36,883 | server.py:101 | FL starting
+DEBUG flower 2023-07-24 15:11:36,883 | server.py:215 | fit_round 1: strategy sampled 1 clients (out of 1)
+DEBUG flower 2023-07-24 15:11:43,192 | server.py:229 | fit_round 1 received 1 results and 0 failures
+WARNING flower 2023-07-24 15:11:43,194 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-07-24 15:11:43,195 | server.py:165 | evaluate_round 1: strategy sampled 1 clients (out of 1)
+DEBUG flower 2023-07-24 15:12:57,618 | server.py:179 | evaluate_round 1 received 1 results and 0 failures
+INFO flower 2023-07-24 15:12:57,619 | server.py:144 | FL finished in 80.735262292
+INFO flower 2023-07-24 15:12:57,619 | app.py:192 | app_fit: losses_distributed [(1, 2.2997806072235107)]
+INFO flower 2023-07-24 15:12:57,619 | app.py:193 | app_fit: metrics_distributed {'accuracy': [(1, 1.0091009100910091e-05)]}
+INFO flower 2023-07-24 15:12:57,619 | app.py:194 | app_fit: losses_centralized []
+INFO flower 2023-07-24 15:12:57,619 | app.py:195 | app_fit: metrics_centralized {}
+evaluate_round 1 received 1 results and 0 timeouts
+time: 86.230821166
+losses_distributed: [[2.2997806072235107]]
+metrics_distributed: [[0.10091009100910091]]
+precision_distributed: [[0.01312350564087693]]
+recall_distributed: [[0.10091009100910091]]
+fscore_distributed: [[0.0202546345097636]]
+metrics_distributed 1
+loss_distributed 1
+precision_distributed 1
+recall_distributed 1
+fscore_distributed 1
+finish mean
