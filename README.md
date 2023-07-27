@@ -1,6 +1,3 @@
-# setup-jetson
-jetsonセットアップようのコード
-
 # my_flower
 * 自分でコーディングしたflowerのコード
 
