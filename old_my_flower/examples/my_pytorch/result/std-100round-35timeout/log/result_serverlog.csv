@@ -1,0 +1,815 @@
+INFO flwr 2023-04-13 02:52:17,226 | app.py:139 | Starting Flower server, config: ServerConfig(num_rounds=100, round_timeout=3500)
+INFO flwr 2023-04-13 02:52:17,233 | app.py:152 | Flower ECE: gRPC server running (100 rounds), SSL is disabled
+INFO flwr 2023-04-13 02:52:17,233 | server.py:86 | Initializing global parameters
+INFO flwr 2023-04-13 02:52:17,234 | server.py:270 | Requesting initial parameters from one random client
+INFO flwr 2023-04-13 02:52:21,648 | server.py:274 | Received initial parameters from one random client
+INFO flwr 2023-04-13 02:52:21,648 | server.py:88 | Evaluating initial parameters
+INFO flwr 2023-04-13 02:52:21,649 | server.py:101 | FL starting
+DEBUG flwr 2023-04-13 02:52:21,649 | server.py:215 | fit_round 1: strategy sampled 2 clients (out of 2)
+DEBUG flwr 2023-04-13 02:52:34,316 | server.py:229 | fit_round 1 received 2 results and 0 failures
+WARNING flwr 2023-04-13 02:52:34,323 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+DEBUG flwr 2023-04-13 02:52:34,324 | server.py:165 | evaluate_round 1: strategy sampled 27 clients (out of 27)
+DEBUG flwr 2023-04-13 02:54:43,068 | server.py:179 | evaluate_round 1 received 27 results and 0 failures
+DEBUG flwr 2023-04-13 02:54:43,068 | server.py:215 | fit_round 2: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 02:55:34,423 | server.py:229 | fit_round 2 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 02:55:34,456 | server.py:165 | evaluate_round 2: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 02:58:33,681 | server.py:179 | evaluate_round 2 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 02:58:33,681 | server.py:215 | fit_round 3: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 02:59:25,632 | server.py:229 | fit_round 3 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 02:59:25,667 | server.py:165 | evaluate_round 3: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:02:37,395 | server.py:179 | evaluate_round 3 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:02:37,396 | server.py:215 | fit_round 4: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:03:28,487 | server.py:229 | fit_round 4 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:03:28,522 | server.py:165 | evaluate_round 4: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:06:40,225 | server.py:179 | evaluate_round 4 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:06:40,225 | server.py:215 | fit_round 5: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:07:30,379 | server.py:229 | fit_round 5 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:07:30,412 | server.py:165 | evaluate_round 5: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:10:41,944 | server.py:179 | evaluate_round 5 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:10:41,945 | server.py:215 | fit_round 6: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:11:32,295 | server.py:229 | fit_round 6 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:11:32,329 | server.py:165 | evaluate_round 6: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:14:45,505 | server.py:179 | evaluate_round 6 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:14:45,505 | server.py:215 | fit_round 7: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:15:35,230 | server.py:229 | fit_round 7 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:15:35,263 | server.py:165 | evaluate_round 7: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:18:48,572 | server.py:179 | evaluate_round 7 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:18:48,572 | server.py:215 | fit_round 8: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:19:39,425 | server.py:229 | fit_round 8 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:19:39,477 | server.py:165 | evaluate_round 8: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:22:51,129 | server.py:179 | evaluate_round 8 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:22:51,129 | server.py:215 | fit_round 9: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:23:42,955 | server.py:229 | fit_round 9 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:23:42,988 | server.py:165 | evaluate_round 9: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:27:10,539 | server.py:179 | evaluate_round 9 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:27:10,539 | server.py:215 | fit_round 10: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:28:00,646 | server.py:229 | fit_round 10 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:28:00,679 | server.py:165 | evaluate_round 10: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:31:28,725 | server.py:179 | evaluate_round 10 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:31:28,726 | server.py:215 | fit_round 11: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:32:17,518 | server.py:229 | fit_round 11 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:32:17,553 | server.py:165 | evaluate_round 11: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:35:44,846 | server.py:179 | evaluate_round 11 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:35:44,846 | server.py:215 | fit_round 12: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:36:36,080 | server.py:229 | fit_round 12 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:36:36,114 | server.py:165 | evaluate_round 12: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:40:04,095 | server.py:179 | evaluate_round 12 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:40:04,095 | server.py:215 | fit_round 13: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:40:53,745 | server.py:229 | fit_round 13 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:40:53,778 | server.py:165 | evaluate_round 13: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:44:22,482 | server.py:179 | evaluate_round 13 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:44:22,482 | server.py:215 | fit_round 14: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:45:11,154 | server.py:229 | fit_round 14 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:45:11,188 | server.py:165 | evaluate_round 14: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:48:39,265 | server.py:179 | evaluate_round 14 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:48:39,266 | server.py:215 | fit_round 15: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:49:27,826 | server.py:229 | fit_round 15 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:49:27,860 | server.py:165 | evaluate_round 15: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:52:55,817 | server.py:179 | evaluate_round 15 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:52:55,817 | server.py:215 | fit_round 16: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:53:46,199 | server.py:229 | fit_round 16 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:53:46,233 | server.py:165 | evaluate_round 16: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:57:14,670 | server.py:179 | evaluate_round 16 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:57:14,671 | server.py:215 | fit_round 17: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 03:58:04,602 | server.py:229 | fit_round 17 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 03:58:04,638 | server.py:165 | evaluate_round 17: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:01:33,060 | server.py:179 | evaluate_round 17 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:01:33,060 | server.py:215 | fit_round 18: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:02:24,068 | server.py:229 | fit_round 18 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:02:24,102 | server.py:165 | evaluate_round 18: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:05:51,986 | server.py:179 | evaluate_round 18 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:05:51,986 | server.py:215 | fit_round 19: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:06:41,756 | server.py:229 | fit_round 19 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:06:41,792 | server.py:165 | evaluate_round 19: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:10:09,541 | server.py:179 | evaluate_round 19 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:10:09,542 | server.py:215 | fit_round 20: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:10:59,866 | server.py:229 | fit_round 20 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:10:59,900 | server.py:165 | evaluate_round 20: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:14:26,827 | server.py:179 | evaluate_round 20 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:14:26,827 | server.py:215 | fit_round 21: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:15:17,923 | server.py:229 | fit_round 21 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:15:17,958 | server.py:165 | evaluate_round 21: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:18:45,960 | server.py:179 | evaluate_round 21 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:18:45,960 | server.py:215 | fit_round 22: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:19:35,199 | server.py:229 | fit_round 22 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:19:35,234 | server.py:165 | evaluate_round 22: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:23:03,555 | server.py:179 | evaluate_round 22 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:23:03,555 | server.py:215 | fit_round 23: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:23:52,796 | server.py:229 | fit_round 23 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:23:52,830 | server.py:165 | evaluate_round 23: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:27:23,319 | server.py:179 | evaluate_round 23 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:27:23,320 | server.py:215 | fit_round 24: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:28:13,145 | server.py:229 | fit_round 24 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:28:13,180 | server.py:165 | evaluate_round 24: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:31:40,713 | server.py:179 | evaluate_round 24 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:31:40,713 | server.py:215 | fit_round 25: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:32:30,079 | server.py:229 | fit_round 25 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:32:30,113 | server.py:165 | evaluate_round 25: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:35:56,769 | server.py:179 | evaluate_round 25 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:35:56,769 | server.py:215 | fit_round 26: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:36:46,065 | server.py:229 | fit_round 26 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:36:46,100 | server.py:165 | evaluate_round 26: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:40:12,693 | server.py:179 | evaluate_round 26 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:40:12,693 | server.py:215 | fit_round 27: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:41:03,263 | server.py:229 | fit_round 27 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:41:03,297 | server.py:165 | evaluate_round 27: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:44:31,433 | server.py:179 | evaluate_round 27 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:44:31,433 | server.py:215 | fit_round 28: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:45:19,536 | server.py:229 | fit_round 28 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:45:19,571 | server.py:165 | evaluate_round 28: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:48:47,646 | server.py:179 | evaluate_round 28 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:48:47,646 | server.py:215 | fit_round 29: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:49:37,513 | server.py:229 | fit_round 29 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:49:37,547 | server.py:165 | evaluate_round 29: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:53:05,846 | server.py:179 | evaluate_round 29 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:53:05,846 | server.py:215 | fit_round 30: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:53:55,903 | server.py:229 | fit_round 30 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:53:55,984 | server.py:165 | evaluate_round 30: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:57:24,155 | server.py:179 | evaluate_round 30 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:57:24,156 | server.py:215 | fit_round 31: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 04:58:14,382 | server.py:229 | fit_round 31 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 04:58:14,416 | server.py:165 | evaluate_round 31: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:01:43,264 | server.py:179 | evaluate_round 31 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:01:43,264 | server.py:215 | fit_round 32: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:02:32,342 | server.py:229 | fit_round 32 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:02:32,378 | server.py:165 | evaluate_round 32: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:06:01,419 | server.py:179 | evaluate_round 32 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:06:01,419 | server.py:215 | fit_round 33: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:06:52,441 | server.py:229 | fit_round 33 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:06:52,474 | server.py:165 | evaluate_round 33: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:10:20,718 | server.py:179 | evaluate_round 33 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:10:20,718 | server.py:215 | fit_round 34: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:11:10,312 | server.py:229 | fit_round 34 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:11:10,347 | server.py:165 | evaluate_round 34: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:14:39,039 | server.py:179 | evaluate_round 34 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:14:39,039 | server.py:215 | fit_round 35: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:15:29,095 | server.py:229 | fit_round 35 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:15:29,130 | server.py:165 | evaluate_round 35: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:18:56,119 | server.py:179 | evaluate_round 35 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:18:56,119 | server.py:215 | fit_round 36: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:19:46,336 | server.py:229 | fit_round 36 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:19:46,372 | server.py:165 | evaluate_round 36: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:23:14,170 | server.py:179 | evaluate_round 36 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:23:14,170 | server.py:215 | fit_round 37: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:24:04,950 | server.py:229 | fit_round 37 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:24:04,984 | server.py:165 | evaluate_round 37: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:27:32,302 | server.py:179 | evaluate_round 37 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:27:32,303 | server.py:215 | fit_round 38: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:28:22,045 | server.py:229 | fit_round 38 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:28:22,078 | server.py:165 | evaluate_round 38: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:31:49,361 | server.py:179 | evaluate_round 38 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:31:49,361 | server.py:215 | fit_round 39: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:32:38,539 | server.py:229 | fit_round 39 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:32:38,575 | server.py:165 | evaluate_round 39: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:36:08,192 | server.py:179 | evaluate_round 39 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:36:08,192 | server.py:215 | fit_round 40: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:37:00,268 | server.py:229 | fit_round 40 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:37:00,302 | server.py:165 | evaluate_round 40: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:40:29,520 | server.py:179 | evaluate_round 40 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:40:29,520 | server.py:215 | fit_round 41: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:41:19,215 | server.py:229 | fit_round 41 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:41:19,249 | server.py:165 | evaluate_round 41: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:44:46,695 | server.py:179 | evaluate_round 41 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:44:46,695 | server.py:215 | fit_round 42: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:45:37,220 | server.py:229 | fit_round 42 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:45:37,254 | server.py:165 | evaluate_round 42: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:49:04,811 | server.py:179 | evaluate_round 42 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:49:04,811 | server.py:215 | fit_round 43: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:49:54,932 | server.py:229 | fit_round 43 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:49:54,966 | server.py:165 | evaluate_round 43: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:53:21,647 | server.py:179 | evaluate_round 43 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:53:21,647 | server.py:215 | fit_round 44: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:54:11,189 | server.py:229 | fit_round 44 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:54:11,223 | server.py:165 | evaluate_round 44: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:57:39,419 | server.py:179 | evaluate_round 44 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:57:39,419 | server.py:215 | fit_round 45: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 05:58:31,302 | server.py:229 | fit_round 45 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 05:58:31,335 | server.py:165 | evaluate_round 45: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:01:59,587 | server.py:179 | evaluate_round 45 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:01:59,588 | server.py:215 | fit_round 46: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:02:49,841 | server.py:229 | fit_round 46 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:02:49,875 | server.py:165 | evaluate_round 46: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:06:07,468 | server.py:179 | evaluate_round 46 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:06:07,468 | server.py:215 | fit_round 47: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:06:51,391 | server.py:229 | fit_round 47 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:06:51,423 | server.py:165 | evaluate_round 47: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:09:51,464 | server.py:179 | evaluate_round 47 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:09:51,465 | server.py:215 | fit_round 48: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:10:35,709 | server.py:229 | fit_round 48 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:10:35,741 | server.py:165 | evaluate_round 48: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:13:35,106 | server.py:179 | evaluate_round 48 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:13:35,106 | server.py:215 | fit_round 49: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:14:18,945 | server.py:229 | fit_round 49 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:14:18,976 | server.py:165 | evaluate_round 49: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:17:17,770 | server.py:179 | evaluate_round 49 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:17:17,770 | server.py:215 | fit_round 50: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:18:01,596 | server.py:229 | fit_round 50 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:18:01,628 | server.py:165 | evaluate_round 50: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:21:00,508 | server.py:179 | evaluate_round 50 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:21:00,508 | server.py:215 | fit_round 51: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:21:45,198 | server.py:229 | fit_round 51 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:21:45,230 | server.py:165 | evaluate_round 51: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:24:46,927 | server.py:179 | evaluate_round 51 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:24:46,929 | server.py:215 | fit_round 52: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:25:32,978 | server.py:229 | fit_round 52 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:25:33,026 | server.py:165 | evaluate_round 52: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:28:32,740 | server.py:179 | evaluate_round 52 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:28:32,740 | server.py:215 | fit_round 53: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:29:17,706 | server.py:229 | fit_round 53 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:29:17,738 | server.py:165 | evaluate_round 53: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:32:17,537 | server.py:179 | evaluate_round 53 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:32:17,537 | server.py:215 | fit_round 54: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:33:02,615 | server.py:229 | fit_round 54 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:33:02,647 | server.py:165 | evaluate_round 54: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:36:01,854 | server.py:179 | evaluate_round 54 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:36:01,854 | server.py:215 | fit_round 55: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:36:46,419 | server.py:229 | fit_round 55 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:36:46,451 | server.py:165 | evaluate_round 55: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:39:46,697 | server.py:179 | evaluate_round 55 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:39:46,698 | server.py:215 | fit_round 56: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:40:31,963 | server.py:229 | fit_round 56 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:40:31,995 | server.py:165 | evaluate_round 56: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:43:32,047 | server.py:179 | evaluate_round 56 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:43:32,048 | server.py:215 | fit_round 57: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:44:15,833 | server.py:229 | fit_round 57 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:44:15,865 | server.py:165 | evaluate_round 57: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:47:15,039 | server.py:179 | evaluate_round 57 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:47:15,040 | server.py:215 | fit_round 58: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:47:59,642 | server.py:229 | fit_round 58 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:47:59,673 | server.py:165 | evaluate_round 58: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:50:59,993 | server.py:179 | evaluate_round 58 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:50:59,993 | server.py:215 | fit_round 59: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:51:46,151 | server.py:229 | fit_round 59 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:51:46,183 | server.py:165 | evaluate_round 59: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:54:47,937 | server.py:179 | evaluate_round 59 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:54:47,939 | server.py:215 | fit_round 60: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:55:33,571 | server.py:229 | fit_round 60 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:55:33,603 | server.py:165 | evaluate_round 60: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:58:34,653 | server.py:179 | evaluate_round 60 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:58:34,653 | server.py:215 | fit_round 61: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 06:59:20,901 | server.py:229 | fit_round 61 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 06:59:20,933 | server.py:165 | evaluate_round 61: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:02:21,762 | server.py:179 | evaluate_round 61 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:02:21,762 | server.py:215 | fit_round 62: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:03:07,247 | server.py:229 | fit_round 62 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:03:07,279 | server.py:165 | evaluate_round 62: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:06:07,190 | server.py:179 | evaluate_round 62 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:06:07,191 | server.py:215 | fit_round 63: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:06:53,025 | server.py:229 | fit_round 63 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:06:53,059 | server.py:165 | evaluate_round 63: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:09:52,486 | server.py:179 | evaluate_round 63 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:09:52,487 | server.py:215 | fit_round 64: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:10:38,121 | server.py:229 | fit_round 64 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:10:38,153 | server.py:165 | evaluate_round 64: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:13:37,259 | server.py:179 | evaluate_round 64 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:13:37,259 | server.py:215 | fit_round 65: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:14:22,217 | server.py:229 | fit_round 65 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:14:22,249 | server.py:165 | evaluate_round 65: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:17:22,557 | server.py:179 | evaluate_round 65 received 34 results and 0 failures
+evaluate_round 1 received 0 results and 27 timeouts
+time: 146.950475958
+losses_distributed: [[]]
+metrics_distributed: [[]]
+evaluate_round 2 received 0 results and 34 timeouts
+time: 377.560849958
+losses_distributed: [[], []]
+metrics_distributed: [[], []]
+evaluate_round 3 received 0 results and 34 timeouts
+time: 621.272414958
+losses_distributed: [[], [], []]
+metrics_distributed: [[], [], []]
+evaluate_round 4 received 0 results and 34 timeouts
+time: 864.106274291
+losses_distributed: [[], [], [], []]
+metrics_distributed: [[], [], [], []]
+evaluate_round 5 received 0 results and 34 timeouts
+time: 1105.824454291
+losses_distributed: [[], [], [], [], []]
+metrics_distributed: [[], [], [], [], []]
+evaluate_round 6 received 0 results and 34 timeouts
+time: 1349.383632041
+losses_distributed: [[], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], []]
+evaluate_round 7 received 0 results and 34 timeouts
+time: 1592.449778291
+losses_distributed: [[], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], []]
+evaluate_round 8 received 0 results and 34 timeouts
+time: 1835.005010333
+losses_distributed: [[], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], []]
+evaluate_round 9 received 0 results and 34 timeouts
+time: 2094.414070666
+losses_distributed: [[], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], []]
+evaluate_round 10 received 0 results and 34 timeouts
+time: 2352.599236458
+losses_distributed: [[], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], []]
+evaluate_round 11 received 0 results and 34 timeouts
+time: 2608.718744
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 12 received 0 results and 34 timeouts
+time: 2867.966088958
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 13 received 0 results and 34 timeouts
+time: 3126.369388583
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 14 received 0 results and 34 timeouts
+time: 3383.153090125
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 15 received 0 results and 34 timeouts
+time: 3639.7053845
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 16 received 0 results and 34 timeouts
+time: 3898.558814666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 17 received 0 results and 34 timeouts
+time: 4156.948936458
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 18 received 0 results and 34 timeouts
+time: 4415.875662291
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 19 received 0 results and 34 timeouts
+time: 4673.431191458
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 20 received 0 results and 34 timeouts
+time: 4930.716731875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 21 received 0 results and 34 timeouts
+time: 5189.832526375
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 22 received 0 results and 34 timeouts
+time: 5447.425943666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 23 received 0 results and 34 timeouts
+time: 5707.189266041
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 24 received 0 results and 34 timeouts
+time: 5964.581264666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 25 received 0 results and 34 timeouts
+time: 6220.635975458
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 26 received 0 results and 34 timeouts
+time: 6476.559258416
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 27 received 0 results and 34 timeouts
+time: 6735.297338583
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 28 received 0 results and 34 timeouts
+time: 6991.509113291
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 29 received 0 results and 34 timeouts
+time: 7249.707814
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 30 received 0 results and 34 timeouts
+time: 7508.023540833
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 31 received 0 results and 34 timeouts
+time: 7767.131398791
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 32 received 0 results and 34 timeouts
+time: 8025.286535458
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 33 received 0 results and 34 timeouts
+time: 8284.5848855
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 34 received 0 results and 34 timeouts
+time: 8542.904976708
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 35 received 0 results and 34 timeouts
+time: 8799.984666541
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 36 received 0 results and 34 timeouts
+time: 9058.035198083
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 37 received 0 results and 34 timeouts
+time: 9316.167026958
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 38 received 0 results and 34 timeouts
+time: 9573.232323333
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 39 received 0 results and 34 timeouts
+time: 9832.063429
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 40 received 0 results and 34 timeouts
+time: 10093.391528916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 41 received 0 results and 34 timeouts
+time: 10350.566809208
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 42 received 0 results and 34 timeouts
+time: 10608.682806458
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 43 received 0 results and 34 timeouts
+time: 10865.519144916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 44 received 0 results and 34 timeouts
+time: 11123.291288083
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 45 received 0 results and 34 timeouts
+time: 11383.4598545
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 46 received 0 results and 34 timeouts
+time: 11631.32772375
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 47 received 0 results and 34 timeouts
+time: 11855.323219458
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 48 received 0 results and 34 timeouts
+time: 12078.963374875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 49 received 0 results and 34 timeouts
+time: 12301.626307208
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 50 received 0 results and 34 timeouts
+time: 12524.363639166
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 51 received 0 results and 34 timeouts
+time: 12750.782668708
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: DEBUG flwr 2023-04-13 07:17:22,557 | server.py:215 | fit_round 66: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:18:07,024 | server.py:229 | fit_round 66 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:18:07,056 | server.py:165 | evaluate_round 66: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:21:06,732 | server.py:179 | evaluate_round 66 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:21:06,732 | server.py:215 | fit_round 67: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:21:51,427 | server.py:229 | fit_round 67 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:21:51,459 | server.py:165 | evaluate_round 67: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:24:51,241 | server.py:179 | evaluate_round 67 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:24:51,241 | server.py:215 | fit_round 68: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:25:37,288 | server.py:229 | fit_round 68 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:25:37,320 | server.py:165 | evaluate_round 68: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:28:36,218 | server.py:179 | evaluate_round 68 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:28:36,218 | server.py:215 | fit_round 69: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:29:22,838 | server.py:229 | fit_round 69 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:29:22,869 | server.py:165 | evaluate_round 69: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:32:23,201 | server.py:179 | evaluate_round 69 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:32:23,201 | server.py:215 | fit_round 70: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:33:08,376 | server.py:229 | fit_round 70 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:33:08,408 | server.py:165 | evaluate_round 70: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:36:08,772 | server.py:179 | evaluate_round 70 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:36:08,772 | server.py:215 | fit_round 71: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:36:54,615 | server.py:229 | fit_round 71 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:36:54,647 | server.py:165 | evaluate_round 71: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:39:54,575 | server.py:179 | evaluate_round 71 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:39:54,575 | server.py:215 | fit_round 72: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:40:39,380 | server.py:229 | fit_round 72 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:40:39,412 | server.py:165 | evaluate_round 72: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:43:38,448 | server.py:179 | evaluate_round 72 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:43:38,448 | server.py:215 | fit_round 73: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:44:22,740 | server.py:229 | fit_round 73 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:44:22,773 | server.py:165 | evaluate_round 73: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:47:22,734 | server.py:179 | evaluate_round 73 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:47:22,734 | server.py:215 | fit_round 74: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:48:09,625 | server.py:229 | fit_round 74 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:48:09,673 | server.py:165 | evaluate_round 74: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:51:10,617 | server.py:179 | evaluate_round 74 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:51:10,617 | server.py:215 | fit_round 75: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:51:56,051 | server.py:229 | fit_round 75 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:51:56,083 | server.py:165 | evaluate_round 75: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:54:56,803 | server.py:179 | evaluate_round 75 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:54:56,804 | server.py:215 | fit_round 76: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:55:42,468 | server.py:229 | fit_round 76 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:55:42,500 | server.py:165 | evaluate_round 76: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:58:41,851 | server.py:179 | evaluate_round 76 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:58:41,852 | server.py:215 | fit_round 77: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 07:59:27,416 | server.py:229 | fit_round 77 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 07:59:27,449 | server.py:165 | evaluate_round 77: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:02:26,207 | server.py:179 | evaluate_round 77 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:02:26,207 | server.py:215 | fit_round 78: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:03:10,624 | server.py:229 | fit_round 78 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:03:10,656 | server.py:165 | evaluate_round 78: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:06:10,556 | server.py:179 | evaluate_round 78 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:06:10,556 | server.py:215 | fit_round 79: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:06:55,497 | server.py:229 | fit_round 79 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:06:55,529 | server.py:165 | evaluate_round 79: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:09:54,592 | server.py:179 | evaluate_round 79 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:09:54,593 | server.py:215 | fit_round 80: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:10:38,929 | server.py:229 | fit_round 80 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:10:38,961 | server.py:165 | evaluate_round 80: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:13:37,874 | server.py:179 | evaluate_round 80 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:13:37,874 | server.py:215 | fit_round 81: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:14:22,883 | server.py:229 | fit_round 81 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:14:22,915 | server.py:165 | evaluate_round 81: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:17:23,300 | server.py:179 | evaluate_round 81 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:17:23,301 | server.py:215 | fit_round 82: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:18:07,827 | server.py:229 | fit_round 82 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:18:07,861 | server.py:165 | evaluate_round 82: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:21:06,699 | server.py:179 | evaluate_round 82 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:21:06,699 | server.py:215 | fit_round 83: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:21:52,744 | server.py:229 | fit_round 83 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:21:52,776 | server.py:165 | evaluate_round 83: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:24:54,500 | server.py:179 | evaluate_round 83 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:24:54,500 | server.py:215 | fit_round 84: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:25:40,541 | server.py:229 | fit_round 84 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:25:40,572 | server.py:165 | evaluate_round 84: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:28:40,177 | server.py:179 | evaluate_round 84 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:28:40,178 | server.py:215 | fit_round 85: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:29:25,329 | server.py:229 | fit_round 85 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:29:25,361 | server.py:165 | evaluate_round 85: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:32:24,920 | server.py:179 | evaluate_round 85 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:32:24,920 | server.py:215 | fit_round 86: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:33:10,245 | server.py:229 | fit_round 86 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:33:10,278 | server.py:165 | evaluate_round 86: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:36:09,531 | server.py:179 | evaluate_round 86 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:36:09,531 | server.py:215 | fit_round 87: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:36:54,046 | server.py:229 | fit_round 87 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:36:54,079 | server.py:165 | evaluate_round 87: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:39:54,529 | server.py:179 | evaluate_round 87 received 34 results and 0 failures
+[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 52 received 0 results and 34 timeouts
+time: 12976.593995958
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 53 received 0 results and 34 timeouts
+time: 13201.389203041
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 54 received 0 results and 34 timeouts
+time: 13425.705963583
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 55 received 0 results and 34 timeouts
+time: 13650.548158125
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 56 received 0 results and 34 timeouts
+time: 13875.901155208
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 57 received 0 results and 34 timeouts
+time: 14098.892465666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 58 received 0 results and 34 timeouts
+time: 14323.845187583
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 59 received 0 results and 34 timeouts
+time: 14551.7900475
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 60 received 0 results and 34 timeouts
+time: 14778.504040333
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 61 received 0 results and 34 timeouts
+time: 15005.612631833
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 62 received 0 results and 34 timeouts
+time: 15231.040189666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 63 received 0 results and 34 timeouts
+time: 15456.335564958
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 64 received 0 results and 34 timeouts
+time: 15681.107648291
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 65 received 0 results and 34 timeouts
+time: 15906.404385583
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 66 received 0 results and 34 timeouts
+time: 16130.578789375
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 67 received 0 results and 34 timeouts
+time: 16355.086801916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 68 received 0 results and 34 timeouts
+time: 16580.063051125
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 69 received 0 results and 34 timeouts
+time: 16807.045412166
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 70 received 0 results and 34 timeouts
+time: 17032.615535833
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 71 received 0 results and 34 timeouts
+time: 17258.418546791
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 72 received 0 results and 34 timeouts
+time: 17482.290525833
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 73 received 0 results and 34 timeouts
+time: 17706.575826
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 74 received 0 results and 34 timeouts
+time: 17934.490876041
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 75 received 0 results and 34 timeouts
+time: 18160.678764
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 76 received 0 results and 34 timeouts
+time: 18385.728253125
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 77 received 0 results and 34 timeouts
+time: 18610.085476291
+losses_distributed: DEBUG flwr 2023-04-13 08:39:54,529 | server.py:215 | fit_round 88: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:40:38,401 | server.py:229 | fit_round 88 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:40:38,433 | server.py:165 | evaluate_round 88: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:43:37,561 | server.py:179 | evaluate_round 88 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:43:37,561 | server.py:215 | fit_round 89: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:44:22,597 | server.py:229 | fit_round 89 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:44:22,630 | server.py:165 | evaluate_round 89: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:47:21,501 | server.py:179 | evaluate_round 89 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:47:21,501 | server.py:215 | fit_round 90: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:48:06,516 | server.py:229 | fit_round 90 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:48:06,548 | server.py:165 | evaluate_round 90: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:51:07,921 | server.py:179 | evaluate_round 90 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:51:07,921 | server.py:215 | fit_round 91: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:51:53,559 | server.py:229 | fit_round 91 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:51:53,591 | server.py:165 | evaluate_round 91: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:54:55,334 | server.py:179 | evaluate_round 91 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:54:55,334 | server.py:215 | fit_round 92: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:55:41,610 | server.py:229 | fit_round 92 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:55:41,644 | server.py:165 | evaluate_round 92: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:58:40,709 | server.py:179 | evaluate_round 92 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:58:40,709 | server.py:215 | fit_round 93: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 08:59:24,720 | server.py:229 | fit_round 93 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 08:59:24,751 | server.py:165 | evaluate_round 93: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:02:24,175 | server.py:179 | evaluate_round 93 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:02:24,175 | server.py:215 | fit_round 94: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:03:09,118 | server.py:229 | fit_round 94 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:03:09,151 | server.py:165 | evaluate_round 94: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:06:08,693 | server.py:179 | evaluate_round 94 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:06:08,693 | server.py:215 | fit_round 95: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:06:54,032 | server.py:229 | fit_round 95 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:06:54,064 | server.py:165 | evaluate_round 95: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:09:54,210 | server.py:179 | evaluate_round 95 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:09:54,210 | server.py:215 | fit_round 96: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:10:38,674 | server.py:229 | fit_round 96 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:10:38,726 | server.py:165 | evaluate_round 96: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:13:37,716 | server.py:179 | evaluate_round 96 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:13:37,717 | server.py:215 | fit_round 97: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:14:22,372 | server.py:229 | fit_round 97 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:14:22,403 | server.py:165 | evaluate_round 97: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:17:23,353 | server.py:179 | evaluate_round 97 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:17:23,353 | server.py:215 | fit_round 98: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:18:07,710 | server.py:229 | fit_round 98 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:18:07,743 | server.py:165 | evaluate_round 98: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:21:07,162 | server.py:179 | evaluate_round 98 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:21:07,162 | server.py:215 | fit_round 99: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:21:52,232 | server.py:229 | fit_round 99 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:21:52,264 | server.py:165 | evaluate_round 99: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:24:53,083 | server.py:179 | evaluate_round 99 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:24:53,084 | server.py:215 | fit_round 100: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:25:38,056 | server.py:229 | fit_round 100 received 34 results and 0 failures
+DEBUG flwr 2023-04-13 09:25:38,090 | server.py:165 | evaluate_round 100: strategy sampled 34 clients (out of 34)
+DEBUG flwr 2023-04-13 09:28:37,985 | server.py:179 | evaluate_round 100 received 34 results and 0 failures
+INFO flwr 2023-04-13 09:28:37,985 | server.py:144 | FL finished in 23776.271291209
+INFO flwr 2023-04-13 09:28:37,986 | app.py:202 | app_fit: losses_distributed [(1, inf), (2, inf), (3, inf), (4, inf), (5, inf), (6, inf), (7, inf), (8, inf), (9, inf), (10, inf), (11, inf), (12, inf), (13, inf), (14, inf), (15, inf), (16, inf), (17, inf), (18, inf), (19, inf), (20, inf), (21, inf), (22, inf), (23, inf), (24, inf), (25, inf), (26, inf), (27, inf), (28, inf), (29, inf), (30, inf), (31, inf), (32, inf), (33, inf), (34, inf), (35, inf), (36, inf), (37, inf), (38, inf), (39, inf), (40, inf), (41, inf), (42, inf), (43, inf), (44, inf), (45, inf), (46, inf), (47, inf), (48, inf), (49, inf), (50, inf), (51, inf), (52, inf), (53, inf), (54, inf), (55, inf), (56, inf), (57, inf), (58, inf), (59, inf), (60, inf), (61, inf), (62, inf), (63, inf), (64, inf), (65, inf), (66, inf), (67, inf), (68, inf), (69, inf), (70, inf), (71, inf), (72, inf), (73, inf), (74, inf), (75, inf), (76, inf), (77, inf), (78, inf), (79, inf), (80, inf), (81, inf), (82, inf), (83, inf), (84, inf), (85, inf), (86, inf), (87, inf), (88, inf), (89, inf), (90, inf), (91, inf), (92, inf), (93, inf), (94, inf), (95, inf), (96, inf), (97, inf), (98, inf), (99, inf), (100, inf)]
+INFO flwr 2023-04-13 09:28:37,986 | app.py:203 | app_fit: metrics_distributed {'accuracy': [(1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0), (7, 0), (8, 0), (9, 0), (10, 0), (11, 0), (12, 0), (13, 0), (14, 0), (15, 0), (16, 0), (17, 0), (18, 0), (19, 0), (20, 0), (21, 0), (22, 0), (23, 0), (24, 0), (25, 0), (26, 0), (27, 0), (28, 0), (29, 0), (30, 0), (31, 0), (32, 0), (33, 0), (34, 0), (35, 0), (36, 0), (37, 0), (38, 0), (39, 0), (40, 0), (41, 0), (42, 0), (43, 0), (44, 0), (45, 0), (46, 0), (47, 0), (48, 0), (49, 0), (50, 0), (51, 0), (52, 0), (53, 0), (54, 0), (55, 0), (56, 0), (57, 0), (58, 0), (59, 0), (60, 0), (61, 0), (62, 0), (63, 0), (64, 0), (65, 0), (66, 0), (67, 0), (68, 0), (69, 0), (70, 0), (71, 0), (72, 0), (73, 0), (74, 0), (75, 0), (76, 0), (77, 0), (78, 0), (79, 0), (80, 0), (81, 0), (82, 0), (83, 0), (84, 0), (85, 0), (86, 0), (87, 0), (88, 0), (89, 0), (90, 0), (91, 0), (92, 0), (93, 0), (94, 0), (95, 0), (96, 0), (97, 0), (98, 0), (99, 0), (100, 0)]}
+INFO flwr 2023-04-13 09:28:37,986 | app.py:204 | app_fit: losses_centralized []
+INFO flwr 2023-04-13 09:28:37,986 | app.py:205 | app_fit: metrics_centralized {}
+[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 78 received 0 results and 34 timeouts
+time: 18834.435442291
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 79 received 0 results and 34 timeouts
+time: 19058.473785916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 80 received 0 results and 34 timeouts
+time: 19281.756996916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 81 received 0 results and 34 timeouts
+time: 19507.18473875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 82 received 0 results and 34 timeouts
+time: 19730.58486825
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 83 received 0 results and 34 timeouts
+time: 19958.344585166
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 84 received 0 results and 34 timeouts
+time: 20184.019128875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 85 received 0 results and 34 timeouts
+time: 20408.759061833
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 86 received 0 results and 34 timeouts
+time: 20633.367600833
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 87 received 0 results and 34 timeouts
+time: 20858.363536333
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 88 received 0 results and 34 timeouts
+time: 21081.392956458
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 89 received 0 results and 34 timeouts
+time: 21305.330477666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 90 received 0 results and 34 timeouts
+time: 21531.748141833
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 91 received 0 results and 34 timeouts
+time: 21759.158438708
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 92 received 0 results and 34 timeouts
+time: 21984.531229916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 93 received 0 results and 34 timeouts
+time: 22208.005338625
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 94 received 0 results and 34 timeouts
+time: 22432.521691333
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 95 received 0 results and 34 timeouts
+time: 22658.037073333
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 96 received 0 results and 34 timeouts
+time: 22881.541693125
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 97 received 0 results and 34 timeouts
+time: 23107.176491708
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 98 received 0 results and 34 timeouts
+time: 23330.983850375
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 99 received 0 results and 34 timeouts
+time: 23556.903758
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 100 received 0 results and 34 timeouts
+time: 23781.804028333
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+print 100
+print [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
