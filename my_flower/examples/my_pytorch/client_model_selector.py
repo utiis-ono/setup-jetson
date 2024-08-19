@@ -1,3 +1,4 @@
+import argparse
 import warnings
 from collections import OrderedDict
 from typing import Dict, List, Optional, Tuple, Any
@@ -10,6 +11,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from torchvision.datasets import MNIST
 from torchvision.datasets import CIFAR10
+import argparse
 from torchvision.transforms import Compose, Normalize, ToTensor
 from tqdm import tqdm
 
@@ -28,15 +30,19 @@ from typing import List, Tuple
 from flwr.common.typing import EvaluateRes
 from sklearn.metrics import precision_recall_fscore_support
 
-args = sys.argv
+parser = argparse.ArgumentParser(description='CIFAR-10 selective training')
+parser.add_argument('--dataset', default="MNIST", type=str, help='Select dateset MNIST or CIFAR10 :default to "MNIST"')
+parser.add_argument('--dir_name', default='test', type=str, help='Decide dir name :default to test')
+parser.add_argument('--node_id', default=1, type=int, help='Select node_id :default to 1')
+args = parser.parse_args()
+#args = sys.argv
 
-if len(args) < 3:
-    print("Usage: python3 client_model_selector.py <dataset_name> <dir name> <node id>")
-    sys.exit()
+#if len(args) < 3:
+#    print("Usage: python3 client_model_selector.py <dataset_name> <dir name> <node id>")
+#    sys.exit()
 
-dataset_name = args[1]
-dirname = 'result/'+ dataset_name + '/' + args[2]
-node_id = args[3]
+dirname = f'result/{args.dataset}/{args.dir_name}'
+node_id = args.node_id
 
 if not os.path.exists(dirname):
     os.makedirs(dirname)

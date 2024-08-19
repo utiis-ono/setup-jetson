@@ -1,3 +1,4 @@
+import argparse
 import warnings
 from collections import OrderedDict
 from typing import Dict, List, Optional, Tuple, Any
@@ -26,27 +27,33 @@ from typing import List, Tuple
 from flwr.common.typing import EvaluateRes
 from sklearn.metrics import precision_recall_fscore_support
 
+parser = argparse.ArgumentParser(description='CIFAR-10 selective training')
+parser.add_argument('--dir_name', default='test', type=str, help='Decide dir name :default to "test"')
+parser.add_argument('--node_id', default=1, type=int, help='Select node_id :default to 1')
+parser.add_argument('--timeout', default=60, type=int, help='Decide timeout[s] :default to 60')
+parser.add_argument('--roundtime', default=30, type=int, help='Decide roundtime[s] :default to 30')
+parser.add_argument('--method', default="std", type=str, help='Select method type std or my :default to "std"')
+args = parser.parse_args()
+#args = sys.argv
 
-args = sys.argv
+#if len(args) != 6:
+#    print("Usage: python3 client_sim2.py <dir name> <node id> <time out[s]> <round time[s]> <model>")
+#    sys.exit()
 
-if len(args) != 6:
-    print("Usage: python3 client_sim2.py <dir name> <node id> <time out[s]> <round time[s]> <model>")
-    sys.exit()
+time_out = int(args.timeout) #サーバのタイムアウト[s]
+round_time = int(args.roundtime) #[s]実測値
 
-time_out = int(args[3]) #サーバのタイムアウト[s]
-round_time = int(args[4]) #[s]実測値
-
-if time_out < round_time:
-    print("time outをround timeよりも短く設定することはできません")
-    sys.exit()
+#if time_out < round_time:
+#    print("time outをround timeよりも短く設定することはできません")
+#    sys.exit()
 
 
-dirname = 'result/cifar-10/' + args[1] 
+dirname = 'result/CIFAR-10/' + args.dir_name 
 if not os.path.exists(dirname):
     os.makedirs(dirname)
 
 
-dirpath = "nodes/node_" + args[2] + ".csv"
+dirpath = f"nodes/node_{args.node_id}.csv"
 df = pd.read_csv(dirpath)
 max_time = df['time'].max()
 print(max_time)
@@ -251,7 +258,7 @@ def test(net, testloader):
         prog_list.append(prog/len(testloader)*100)
         return loss/ len(testloader.dataset), correct /total, y_true_list, y_pred_list
     else:
-        if args[5] == 'std':##領域外に行ってしまったのでモデルを送信できない
+        if args.method == 'std':##領域外に行ってしまったのでモデルを送信できない
             #return None, {"accyuracy":0.0}
             #sys.exit()
             #print("before",len(accuracy_list))
@@ -333,7 +340,7 @@ fl.client.start_numpy_client(
     client=FlowerClient(),
 )
 
-filename = dirname + "/result_client-" + args[2] + ".csv"
+filename = f"{dirname}/result_client-{args.node_id}.csv"
 with open(filename, 'w') as f:
     writer = csv.writer(f,lineterminator = '\n')
     writer.writerow(make_csv )

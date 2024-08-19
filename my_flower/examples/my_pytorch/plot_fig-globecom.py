@@ -40,7 +40,7 @@ def plot_data(directories, x_axis, y_axis):
     os.makedirs(fig_directory, exist_ok=True)
 
     fig = plt.gcf()  # 現在の図を取得
-    fig.set_size_inches(7, 4)  # 図のサイズを設定
+    fig.set_size_inches(10, 5.5)  # 図のサイズを設定
     plt.tight_layout()  # レイアウトを調整
 
     plt.savefig(os.path.join(fig_directory, f'{y_axis}_vs_{x_axis}-server.pdf'), format='pdf')

@@ -1,3 +1,4 @@
+import argparse
 import warnings
 from collections import OrderedDict
 
@@ -19,19 +20,22 @@ import numpy as np
 import sys
 import os
 
+parser = argparse.ArgumentParser(description='CIFAR-10 selective training')
+parser.add_argument('--dir_name', default='test', type=str, help='Decide dir name :default to test')
+parser.add_argument('--node_id', default=1, type=int, help='Select node_id :default to 1')
+args = parser.parse_args()
+#args = sys.argv
 
-args = sys.argv
+#if len(args) < 2:
+#    print("Usage: python3 client_sim.py <dir name> <node id>")
+#    sys.exit()
 
-if len(args) < 2:
-    print("Usage: python3 client_sim.py <dir name> <node id>")
-    sys.exit()
-
-dirname = 'result/' + args[1] 
+dirname = f'result/args.dir_name' 
 if not os.path.exists(dirname):
     os.makedirs(dirname)
 
 
-dirpath = "nodes/node_" + args[2] + ".csv"
+dirpath = f"nodes/node_{args.node_id}.csv"
 df = pd.read_csv(dirpath)
 max_time = df['time'].max()
 print(max_time)
@@ -230,7 +234,7 @@ fl.client.start_numpy_client(
     client=FlowerClient(),
 )
 
-filename = dirname + "/result_client-" + args[2] + ".csv"
+filename = f"{dirname}/result_client-{args.node_id}.csv"
 with open(filename, 'w') as f:
     writer = csv.writer(f,lineterminator = '\n')
     writer.writerow(make_csv )

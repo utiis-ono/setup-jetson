@@ -1,3 +1,4 @@
+import argparse
 from sklearn.metrics import precision_recall_fscore_support
 import matplotlib.pyplot as plt
 
@@ -19,16 +20,16 @@ import torch
 
 from my_model import MyModel
 
-args = sys.argv
+parser = argparse.ArgumentParser(description='CIFAR-100 selective training')
+parser.add_argument('--dir_name', default='test', type=str, help='Decide dir namei default to "test" *clientのデータセットの名前を前につけること ex) MNIST/hogehoge')
+parser.add_argument('--rounds', default=3, type=int, help='Decide number of rounds :default to 3')
+parser.add_argument('--timeout', default=60, type=int, help='Decide timeout[s] :default to 60')
+parser.add_argument('--roundtime', default=30, type=int, help='Decide roundtime[s] :default to 30')
+args = parser.parse_args()
 
-if len(args) < 5:
-    print("Usage: python3 server.py <dir name> <rounds> <time_out[s]> <rounud time[s]>")
-    print("dir nameはclientのデータセットの名前を前につけること　ex) MNIST/hogehoge")
-    sys.exit()
-
-dirname = 'result/' + args[1]
-timeout = int(args[3]) #[s]Time outの時間
-round_time = int(args[4]) #[s]実測値
+dirname = 'result/' + args.dir_name
+timeout = int(args.timeout) #[s]Time outの時間
+round_time = int(args.roundtime) #[s]実測値
 round_list = []
 time_list = []
 simtime_list = [0]
@@ -139,8 +140,8 @@ strategy = CustomStrategy(
 # Start Flower server
 fl.server.start_server(
     server_address="0.0.0.0:8080",
-    #server_address="192.168.0.238:8080",
-    config=fl.server.ServerConfig(num_rounds=int(args[2]), round_timeout=timeout*100),#timeoutはsim用のパラメータなので実機でやる時は*100を無くしたほうがいいかも
+    #server_address="169.254.50.93:8080",
+    config=fl.server.ServerConfig(num_rounds=int(args.rounds), round_timeout=timeout*100),#timeoutはsim用のパラメータなので実機でやる時は*100を無くしたほうがいいかも
     strategy=strategy,
 )
 

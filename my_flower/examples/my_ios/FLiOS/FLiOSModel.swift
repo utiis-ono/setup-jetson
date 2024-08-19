@@ -40,14 +40,19 @@ public class FLiOSModel: ObservableObject {
     @Published public var mlFlwrClientStatus = Constants.PreparationStatus.notPrepared
     
     private var flwrGRPC: FlwrGRPC?
-    @Published public var hostname: String = "10.17.79.112"
-    //@Published public var hostname: String = "192.168.0.240"
+//    @Published public var hostname: String = "10.17.98.56"
+    @Published public var hostname: String = "172.20.40.195"
+//    @Published public var hostname: String = "192.168.0.108"
     @Published public var port: Int = 8080
     @Published public var federatedServerStatus = Constants.TaskStatus.idle
 //    @Published public var serverLatitude: Double = 35.9518709 // shibaura
 //    @Published public var serverLongitude: Double = 139.6544998 //shibaura
-    @Published public var serverLatitude: Double = 35.66247204942798 // IIS
-    @Published public var serverLongitude: Double = 139.67791825119184 //IIS
+//    @Published public var serverLatitude: Double = 35.66247204942798 // IIS
+//    @Published public var serverLongitude: Double = 139.67791825119184 //IIS
+//    @Published public var serverLatitude: Double = 35.1550331 // nagoya
+//    @Published public var serverLongitude: Double = 136.9620684 //nagoya
+    @Published public var serverLatitude: Double = 36.8129106 // toyama
+    @Published public var serverLongitude: Double = 137.0376684 //toyama
     //RR
     @Published public var radius: Double = 300
     

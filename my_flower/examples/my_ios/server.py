@@ -51,7 +51,10 @@ def main(directory, num_clients=1, num_rounds=1) -> None:
 
     # Start Flower server
     hist = flwr.server.start_server(
-        server_address="10.17.79.112:8080",
+        #server_address="10.17.79.112:8080",
+        #server_address="172.20.40.195:8080",
+        server_address="172.20.10.14",
+        #server_address="169.254.220.233",
         config=flwr.server.ServerConfig(num_rounds=num_rounds),
         strategy=strategy,
     )

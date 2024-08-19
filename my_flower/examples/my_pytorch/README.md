@@ -20,9 +20,16 @@
 # client_sim3.py
 * %によって学習効率が変化することを確かめる時に使う
 
+# client_sim4.py
+* CIFAR-100で各地のモデルをマージする時のシミュレーションに使う
+
 # run_sim.py
 * シミュレーションを実行する時はこれを使う
 * server.pyとsum_cluent2.pyを自動起動する
+
+# run_sim_sifar100.py
+* CIFAR100と途中からのモデルを用いてシミュレーションを実行する時はこれを使う
+* server_cifar100.pyとsum_cluent4.pyを自動起動する
 
 # plot_fig-hogehohe.py
 * 図を作る
@@ -35,3 +42,13 @@
 
 # marge_model.py
 * 指定したサーバのモデルを統合する
+
+# marge-train-cifar100.py
+* 作成したモデルをマージしてそこから学習を実行できるコード
+* cifa-100のsuperclassをデータセットとして用いることができる
+* subclassの一部を削除することができる
+
+# marge-only-cifar100.py
+* 作成したモデルをマージしてテストをするだけのコード
+* marge-train-chair100.pyを使った方がいい
+* cifa-100のsuperclassをデータセットとして用いることができる

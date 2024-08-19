@@ -1,3 +1,4 @@
+import argparse
 import warnings
 from collections import OrderedDict
 
@@ -19,20 +20,24 @@ import numpy as np
 import sys
 import os 
 
-args = sys.argv
+parser = argparse.ArgumentParser(description='CIFAR-10 selective training')
+parser.add_argument('--dir_name', default='test', type=str, help='Diceide dir name :default to test')
+parser.add_argument('--interval', default=1, type=int, help='Select interval :default to 60')
+args = parser.parse_args()
+#args = sys.argv
 
-if len(args) < 2:
-    print("Usage: python3 my_client <dir name> <interval[s]>")
-    sys.exit()
+#if len(args) < 2:
+#    print("Usage: python3 my_client <dir name> <interval[s]>")
+#    sys.exit()
 
-dirname = 'result/' + args[1]
+dirname = f'result/{args.dir_name}'
 if not os.path.exists(dirname):
     os.makedirs(dirname)
 
 
 interval_list = []
 #interval [s] 間学習に参加した後 interval [s] 間離脱を繰り返す
-interval_list.append(int(args[2]))
+interval_list.append(args.interval)
 
 if interval_list[-1] == 0:
     print("This node is stay")
@@ -41,7 +46,7 @@ elif interval_list[-1] == -1:
     print("Leav node")
 
 else:
-    print("This node is move, Interval = " + args[2] + " [ms]")
+    print(f"This node is move, Interval = {args.interval} [ms]")
 
 
 time_list = []
@@ -177,11 +182,11 @@ class FlowerClient(fl.client.NumPyClient):
 
 # Start Flower client
 fl.client.start_numpy_client(
-    server_address="127.0.0.1:8080",
+    server_address="192.168.0.108:8080",
     client=FlowerClient(),
 )
 
-filename = dirname + "/result_client-" + args[2] + ".csv"
+filename = f"{dirname}/result_client-{args.interval}.csv"
 with open(filename, 'w') as f:
     writer = csv.writer(f,lineterminator = '\n')
     writer.writerow(make_csv )

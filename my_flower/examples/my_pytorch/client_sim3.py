@@ -1,3 +1,4 @@
+import argparse
 import warnings
 from collections import OrderedDict
 
@@ -24,19 +25,24 @@ import os
 #class EvaluationError(Exception):
 #    pass
 
+parser = argparse.ArgumentParser(description='CIFAR-10 selective training')
+parser.add_argument('--dir_name', default='test', type=str, help='Decide dir name :default to test')
+parser.add_argument('--node_id', default=1, type=int, help='Select node_id :default to 1')
+parser.add_argument('--roundtime', default=60, type=int, help='Decide round time[s] :default to 60')
+parser.add_argument('--prog', default=100, type=int, help='Decide learning progress[%] :default to 100')
+args = parser.parse_args()
+#args = sys.argv
 
-args = sys.argv
+#if len(args) != 5:
+#    print("Usage: python3 client_sim2.py <dir name> <node id> <round time[s]> <prog [%]>")
+#    sys.exit()
 
-if len(args) != 5:
-    print("Usage: python3 client_sim2.py <dir name> <node id> <round time[s]> <prog [%]>")
-    sys.exit()
-
-dirname = 'result/' + args[1] 
+dirname = f"result/{args.dir_name}"
 if not os.path.exists(dirname):
     os.makedirs(dirname)
 
 
-round_time = int(args[3]) #[s]実測値
+round_time = int(args.roundtime) #[s]実測値
 time_list = [0]
 loss_list = []
 accuracy_list = []
@@ -106,7 +112,7 @@ def test(net, testloader):
     with torch.no_grad():
         for images, labels in tqdm(testloader, file=sys.stderr):
             prog = prog + 1
-            if int(args[4]) <= (prog/len(testloader)*100):
+            if int(args.prog) <= (prog/len(testloader)*100):
                 break
             else:
                 outputs = net(images.to(DEVICE))
@@ -174,7 +180,7 @@ fl.client.start_numpy_client(
     client=FlowerClient(),
 )
 
-filename = dirname + "/result_client-" + args[2] + ".csv"
+filename = f"{dirname}/result_client-{args.node_id}.csv"
 with open(filename, 'w') as f:
     writer = csv.writer(f,lineterminator = '\n')
     writer.writerow(make_csv )

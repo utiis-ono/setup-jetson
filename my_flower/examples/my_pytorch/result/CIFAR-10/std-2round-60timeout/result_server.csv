@@ -1,3 +1,0 @@
-Round,Real Time[s],Sim Time[s],Accuracy,Loss,Precision,Recall,F-score,received,failure,p_rate[%]
-1,36.186305083,60,,,,,,0,2,0
-2,66.934281416,120,,,,,,0,2,0

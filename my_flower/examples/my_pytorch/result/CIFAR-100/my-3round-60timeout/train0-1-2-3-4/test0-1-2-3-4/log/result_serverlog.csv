@@ -1,0 +1,52 @@
+INFO flower 2023-10-03 16:25:53,317 | app.py:131 | Starting Flower server, config: ServerConfig(num_rounds=3, round_timeout=6000)
+INFO flower 2023-10-03 16:25:53,320 | app.py:144 | Flower ECE: gRPC server running (3 rounds), SSL is disabled
+INFO flower 2023-10-03 16:25:53,320 | server.py:86 | Initializing global parameters
+INFO flower 2023-10-03 16:25:53,320 | server.py:270 | Requesting initial parameters from one random client
+INFO flower 2023-10-03 16:25:57,933 | server.py:274 | Received initial parameters from one random client
+INFO flower 2023-10-03 16:25:57,933 | server.py:88 | Evaluating initial parameters
+INFO flower 2023-10-03 16:25:57,933 | server.py:101 | FL starting
+DEBUG flower 2023-10-03 16:25:57,933 | server.py:215 | fit_round 1: strategy sampled 1 clients (out of 1)
+DEBUG flower 2023-10-03 16:26:06,433 | server.py:229 | fit_round 1 received 1 results and 0 failures
+WARNING flower 2023-10-03 16:26:06,435 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-10-03 16:26:06,436 | server.py:165 | evaluate_round 1: strategy sampled 1 clients (out of 1)
+DEBUG flower 2023-10-03 16:27:04,214 | server.py:179 | evaluate_round 1 received 1 results and 0 failures
+DEBUG flower 2023-10-03 16:27:04,214 | server.py:215 | fit_round 2: strategy sampled 1 clients (out of 1)
+DEBUG flower 2023-10-03 16:27:12,205 | server.py:229 | fit_round 2 received 1 results and 0 failures
+DEBUG flower 2023-10-03 16:27:12,207 | server.py:165 | evaluate_round 2: strategy sampled 1 clients (out of 1)
+DEBUG flower 2023-10-03 16:28:07,420 | server.py:179 | evaluate_round 2 received 1 results and 0 failures
+DEBUG flower 2023-10-03 16:28:07,420 | server.py:215 | fit_round 3: strategy sampled 1 clients (out of 1)
+DEBUG flower 2023-10-03 16:28:15,428 | server.py:229 | fit_round 3 received 1 results and 0 failures
+DEBUG flower 2023-10-03 16:28:15,430 | server.py:165 | evaluate_round 3: strategy sampled 1 clients (out of 1)
+DEBUG flower 2023-10-03 16:29:12,814 | server.py:179 | evaluate_round 3 received 1 results and 0 failures
+INFO flower 2023-10-03 16:29:12,814 | server.py:144 | FL finished in 194.881018625
+INFO flower 2023-10-03 16:29:12,814 | app.py:192 | app_fit: losses_distributed [(1, 2.481625556945801), (2, 2.3940584659576416), (3, 2.4747469425201416)]
+INFO flower 2023-10-03 16:29:12,815 | app.py:193 | app_fit: metrics_distributed {'accuracy': [(1, 4.99698249849125e-06), (2, 5.188148518564821e-06), (3, 6.940253470126735e-06)]}
+INFO flower 2023-10-03 16:29:12,815 | app.py:194 | app_fit: losses_centralized []
+INFO flower 2023-10-03 16:29:12,815 | app.py:195 | app_fit: metrics_centralized {}
+evaluate_round 1 received 1 results and 0 timeouts
+time: 72.173191458
+losses_distributed: [[2.481625556945801]]
+metrics_distributed: [[0.049969824984912495]]
+precision_distributed: [[0.011338769130192348]]
+recall_distributed: [[0.049969824984912495]]
+fscore_distributed: [[0.007818314749906363]]
+evaluate_round 2 received 1 results and 0 timeouts
+time: 135.379620583
+losses_distributed: [[2.481625556945801], [2.3940584659576416]]
+metrics_distributed: [[0.049969824984912495], [0.0518814851856482]]
+precision_distributed: [[0.011338769130192348], [0.06856011288809293]]
+recall_distributed: [[0.049969824984912495], [0.0518814851856482]]
+fscore_distributed: [[0.007818314749906363], [0.017587221786398988]]
+evaluate_round 3 received 1 results and 0 timeouts
+time: 200.773628375
+losses_distributed: [[2.481625556945801], [2.3940584659576416], [2.4747469425201416]]
+metrics_distributed: [[0.049969824984912495], [0.0518814851856482], [0.06940253470126735]]
+precision_distributed: [[0.011338769130192348], [0.06856011288809293], [0.03371042177507106]]
+recall_distributed: [[0.049969824984912495], [0.0518814851856482], [0.06940253470126735]]
+fscore_distributed: [[0.007818314749906363], [0.017587221786398988], [0.03640995940636366]]
+metrics_distributed 3
+loss_distributed 3
+precision_distributed 3
+recall_distributed 3
+fscore_distributed 3
+finish mean

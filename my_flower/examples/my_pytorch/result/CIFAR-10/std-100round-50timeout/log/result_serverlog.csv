@@ -1,0 +1,1119 @@
+INFO flower 2023-10-11 14:28:26,682 | app.py:131 | Starting Flower server, config: ServerConfig(num_rounds=100, round_timeout=5000)
+INFO flower 2023-10-11 14:28:26,690 | app.py:144 | Flower ECE: gRPC server running (100 rounds), SSL is disabled
+INFO flower 2023-10-11 14:28:26,691 | server.py:86 | Initializing global parameters
+INFO flower 2023-10-11 14:28:26,691 | server.py:270 | Requesting initial parameters from one random client
+INFO flower 2023-10-11 14:28:29,472 | server.py:274 | Received initial parameters from one random client
+INFO flower 2023-10-11 14:28:29,472 | server.py:88 | Evaluating initial parameters
+INFO flower 2023-10-11 14:28:29,472 | server.py:101 | FL starting
+DEBUG flower 2023-10-11 14:28:29,472 | server.py:215 | fit_round 1: strategy sampled 1 clients (out of 1)
+DEBUG flower 2023-10-11 14:28:45,832 | server.py:229 | fit_round 1 received 1 results and 0 failures
+WARNING flower 2023-10-11 14:28:45,835 | fedavg.py:242 | No fit_metrics_aggregation_fn provided
+DEBUG flower 2023-10-11 14:28:45,837 | server.py:165 | evaluate_round 1: strategy sampled 29 clients (out of 29)
+DEBUG flower 2023-10-11 14:36:16,691 | server.py:179 | evaluate_round 1 received 29 results and 0 failures
+DEBUG flower 2023-10-11 14:36:16,692 | server.py:215 | fit_round 2: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 14:37:26,504 | server.py:229 | fit_round 2 received 35 results and 0 failures
+DEBUG flower 2023-10-11 14:37:26,549 | server.py:165 | evaluate_round 2: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 14:48:50,001 | server.py:179 | evaluate_round 2 received 35 results and 0 failures
+DEBUG flower 2023-10-11 14:48:50,002 | server.py:215 | fit_round 3: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 14:50:01,418 | server.py:229 | fit_round 3 received 35 results and 0 failures
+DEBUG flower 2023-10-11 14:50:01,461 | server.py:165 | evaluate_round 3: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 15:01:43,599 | server.py:179 | evaluate_round 3 received 35 results and 0 failures
+DEBUG flower 2023-10-11 15:01:43,599 | server.py:215 | fit_round 4: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 15:03:01,377 | server.py:229 | fit_round 4 received 35 results and 0 failures
+DEBUG flower 2023-10-11 15:03:01,421 | server.py:165 | evaluate_round 4: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 15:14:31,387 | server.py:179 | evaluate_round 4 received 35 results and 0 failures
+DEBUG flower 2023-10-11 15:14:31,388 | server.py:215 | fit_round 5: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 15:15:36,315 | server.py:229 | fit_round 5 received 35 results and 0 failures
+DEBUG flower 2023-10-11 15:15:36,358 | server.py:165 | evaluate_round 5: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 15:26:32,731 | server.py:179 | evaluate_round 5 received 35 results and 0 failures
+DEBUG flower 2023-10-11 15:26:32,733 | server.py:215 | fit_round 6: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 15:27:41,226 | server.py:229 | fit_round 6 received 35 results and 0 failures
+DEBUG flower 2023-10-11 15:27:41,276 | server.py:165 | evaluate_round 6: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 15:38:17,840 | server.py:179 | evaluate_round 6 received 35 results and 0 failures
+DEBUG flower 2023-10-11 15:38:17,840 | server.py:215 | fit_round 7: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 15:39:29,856 | server.py:229 | fit_round 7 received 35 results and 0 failures
+DEBUG flower 2023-10-11 15:39:29,898 | server.py:165 | evaluate_round 7: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 15:50:34,713 | server.py:179 | evaluate_round 7 received 35 results and 0 failures
+DEBUG flower 2023-10-11 15:50:34,714 | server.py:215 | fit_round 8: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 15:51:41,691 | server.py:229 | fit_round 8 received 35 results and 0 failures
+DEBUG flower 2023-10-11 15:51:41,743 | server.py:165 | evaluate_round 8: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 16:02:49,423 | server.py:179 | evaluate_round 8 received 35 results and 0 failures
+DEBUG flower 2023-10-11 16:02:49,424 | server.py:215 | fit_round 9: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 16:04:01,613 | server.py:229 | fit_round 9 received 35 results and 0 failures
+DEBUG flower 2023-10-11 16:04:01,656 | server.py:165 | evaluate_round 9: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 16:15:09,691 | server.py:179 | evaluate_round 9 received 35 results and 0 failures
+DEBUG flower 2023-10-11 16:15:09,692 | server.py:215 | fit_round 10: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 16:16:21,191 | server.py:229 | fit_round 10 received 35 results and 0 failures
+DEBUG flower 2023-10-11 16:16:21,240 | server.py:165 | evaluate_round 10: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 16:27:34,401 | server.py:179 | evaluate_round 10 received 35 results and 0 failures
+DEBUG flower 2023-10-11 16:27:34,401 | server.py:215 | fit_round 11: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 16:28:47,107 | server.py:229 | fit_round 11 received 35 results and 0 failures
+DEBUG flower 2023-10-11 16:28:47,155 | server.py:165 | evaluate_round 11: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 16:40:04,845 | server.py:179 | evaluate_round 11 received 35 results and 0 failures
+DEBUG flower 2023-10-11 16:40:04,846 | server.py:215 | fit_round 12: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 16:41:18,407 | server.py:229 | fit_round 12 received 35 results and 0 failures
+DEBUG flower 2023-10-11 16:41:18,459 | server.py:165 | evaluate_round 12: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 16:52:38,842 | server.py:179 | evaluate_round 12 received 35 results and 0 failures
+DEBUG flower 2023-10-11 16:52:38,842 | server.py:215 | fit_round 13: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 16:53:51,856 | server.py:229 | fit_round 13 received 35 results and 0 failures
+DEBUG flower 2023-10-11 16:53:51,901 | server.py:165 | evaluate_round 13: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 17:05:06,009 | server.py:179 | evaluate_round 13 received 35 results and 0 failures
+DEBUG flower 2023-10-11 17:05:06,009 | server.py:215 | fit_round 14: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 17:06:39,375 | server.py:229 | fit_round 14 received 35 results and 0 failures
+DEBUG flower 2023-10-11 17:06:39,439 | server.py:165 | evaluate_round 14: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 17:17:08,468 | server.py:179 | evaluate_round 14 received 35 results and 0 failures
+DEBUG flower 2023-10-11 17:17:08,468 | server.py:215 | fit_round 15: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 17:18:04,885 | server.py:229 | fit_round 15 received 35 results and 0 failures
+DEBUG flower 2023-10-11 17:18:04,929 | server.py:165 | evaluate_round 15: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 17:28:09,293 | server.py:179 | evaluate_round 15 received 35 results and 0 failures
+DEBUG flower 2023-10-11 17:28:09,294 | server.py:215 | fit_round 16: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 17:29:13,368 | server.py:229 | fit_round 16 received 35 results and 0 failures
+DEBUG flower 2023-10-11 17:29:13,416 | server.py:165 | evaluate_round 16: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 17:39:01,075 | server.py:179 | evaluate_round 16 received 35 results and 0 failures
+DEBUG flower 2023-10-11 17:39:01,076 | server.py:215 | fit_round 17: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 17:40:09,549 | server.py:229 | fit_round 17 received 35 results and 0 failures
+DEBUG flower 2023-10-11 17:40:09,591 | server.py:165 | evaluate_round 17: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 17:50:20,823 | server.py:179 | evaluate_round 17 received 35 results and 0 failures
+DEBUG flower 2023-10-11 17:50:20,823 | server.py:215 | fit_round 18: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 17:51:14,486 | server.py:229 | fit_round 18 received 35 results and 0 failures
+DEBUG flower 2023-10-11 17:51:14,529 | server.py:165 | evaluate_round 18: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:01:01,213 | server.py:179 | evaluate_round 18 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:01:01,214 | server.py:215 | fit_round 19: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:01:55,608 | server.py:229 | fit_round 19 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:01:55,653 | server.py:165 | evaluate_round 19: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:12:12,071 | server.py:179 | evaluate_round 19 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:12:12,072 | server.py:215 | fit_round 20: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:13:13,665 | server.py:229 | fit_round 20 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:13:13,712 | server.py:165 | evaluate_round 20: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:22:57,414 | server.py:179 | evaluate_round 20 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:22:57,414 | server.py:215 | fit_round 21: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:23:57,280 | server.py:229 | fit_round 21 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:23:57,325 | server.py:165 | evaluate_round 21: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:33:45,626 | server.py:179 | evaluate_round 21 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:33:45,629 | server.py:215 | fit_round 22: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:34:46,237 | server.py:229 | fit_round 22 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:34:46,282 | server.py:165 | evaluate_round 22: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:44:56,290 | server.py:179 | evaluate_round 22 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:44:56,291 | server.py:215 | fit_round 23: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:46:26,527 | server.py:229 | fit_round 23 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:46:26,582 | server.py:165 | evaluate_round 23: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 18:59:39,287 | server.py:179 | evaluate_round 23 received 35 results and 0 failures
+DEBUG flower 2023-10-11 18:59:39,288 | server.py:215 | fit_round 24: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:00:29,672 | server.py:229 | fit_round 24 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:00:29,715 | server.py:165 | evaluate_round 24: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:09:52,870 | server.py:179 | evaluate_round 24 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:09:52,870 | server.py:215 | fit_round 25: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:10:43,005 | server.py:229 | fit_round 25 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:10:43,047 | server.py:165 | evaluate_round 25: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:20:04,008 | server.py:179 | evaluate_round 25 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:20:04,008 | server.py:215 | fit_round 26: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:20:57,853 | server.py:229 | fit_round 26 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:20:57,899 | server.py:165 | evaluate_round 26: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:30:11,739 | server.py:179 | evaluate_round 26 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:30:11,740 | server.py:215 | fit_round 27: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:31:07,709 | server.py:229 | fit_round 27 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:31:07,754 | server.py:165 | evaluate_round 27: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:40:21,437 | server.py:179 | evaluate_round 27 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:40:21,437 | server.py:215 | fit_round 28: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:41:16,689 | server.py:229 | fit_round 28 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:41:16,731 | server.py:165 | evaluate_round 28: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:50:32,431 | server.py:179 | evaluate_round 28 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:50:32,431 | server.py:215 | fit_round 29: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 19:51:28,429 | server.py:229 | fit_round 29 received 35 results and 0 failures
+DEBUG flower 2023-10-11 19:51:28,474 | server.py:165 | evaluate_round 29: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:00:38,658 | server.py:179 | evaluate_round 29 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:00:38,658 | server.py:215 | fit_round 30: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:01:33,267 | server.py:229 | fit_round 30 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:01:33,309 | server.py:165 | evaluate_round 30: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:10:41,670 | server.py:179 | evaluate_round 30 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:10:41,670 | server.py:215 | fit_round 31: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:11:37,360 | server.py:229 | fit_round 31 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:11:37,402 | server.py:165 | evaluate_round 31: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:20:56,377 | server.py:179 | evaluate_round 31 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:20:56,377 | server.py:215 | fit_round 32: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:21:50,877 | server.py:229 | fit_round 32 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:21:50,922 | server.py:165 | evaluate_round 32: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:31:08,546 | server.py:179 | evaluate_round 32 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:31:08,547 | server.py:215 | fit_round 33: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:32:06,717 | server.py:229 | fit_round 33 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:32:06,760 | server.py:165 | evaluate_round 33: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:41:53,148 | server.py:179 | evaluate_round 33 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:41:53,148 | server.py:215 | fit_round 34: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:42:53,282 | server.py:229 | fit_round 34 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:42:53,327 | server.py:165 | evaluate_round 34: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:52:56,574 | server.py:179 | evaluate_round 34 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:52:56,575 | server.py:215 | fit_round 35: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 20:53:57,832 | server.py:229 | fit_round 35 received 35 results and 0 failures
+DEBUG flower 2023-10-11 20:53:57,881 | server.py:165 | evaluate_round 35: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 21:04:15,456 | server.py:179 | evaluate_round 35 received 35 results and 0 failures
+DEBUG flower 2023-10-11 21:04:15,456 | server.py:215 | fit_round 36: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 21:05:18,138 | server.py:229 | fit_round 36 received 35 results and 0 failures
+DEBUG flower 2023-10-11 21:05:18,182 | server.py:165 | evaluate_round 36: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 21:15:35,041 | server.py:179 | evaluate_round 36 received 35 results and 0 failures
+DEBUG flower 2023-10-11 21:15:35,042 | server.py:215 | fit_round 37: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 21:16:36,909 | server.py:229 | fit_round 37 received 35 results and 0 failures
+DEBUG flower 2023-10-11 21:16:36,950 | server.py:165 | evaluate_round 37: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 21:26:46,979 | server.py:179 | evaluate_round 37 received 35 results and 0 failures
+DEBUG flower 2023-10-11 21:26:46,981 | server.py:215 | fit_round 38: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 21:27:47,822 | server.py:229 | fit_round 38 received 35 results and 0 failures
+DEBUG flower 2023-10-11 21:27:47,868 | server.py:165 | evaluate_round 38: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 21:38:04,672 | server.py:179 | evaluate_round 38 received 35 results and 0 failures
+DEBUG flower 2023-10-11 21:38:04,673 | server.py:215 | fit_round 39: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 21:39:05,369 | server.py:229 | fit_round 39 received 35 results and 0 failures
+DEBUG flower 2023-10-11 21:39:05,416 | server.py:165 | evaluate_round 39: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 21:49:20,102 | server.py:179 | evaluate_round 39 received 35 results and 0 failures
+DEBUG flower 2023-10-11 21:49:20,103 | server.py:215 | fit_round 40: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 21:50:21,209 | server.py:229 | fit_round 40 received 35 results and 0 failures
+DEBUG flower 2023-10-11 21:50:21,253 | server.py:165 | evaluate_round 40: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:00:32,549 | server.py:179 | evaluate_round 40 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:00:32,549 | server.py:215 | fit_round 41: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:01:32,945 | server.py:229 | fit_round 41 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:01:32,988 | server.py:165 | evaluate_round 41: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:11:45,336 | server.py:179 | evaluate_round 41 received 35 results and 0 failures
+evaluate_round 1 received 0 results and 29 timeouts
+time: 472.963902875
+losses_distributed: [[]]
+metrics_distributed: [[]]
+precision_distributed: [[]]
+recall_distributed: [[]]
+fscore_distributed: [[]]
+evaluate_round 2 received 0 results and 35 timeouts
+time: 1226.247525791
+losses_distributed: [[], []]
+metrics_distributed: [[], []]
+precision_distributed: [[], []]
+recall_distributed: [[], []]
+fscore_distributed: [[], []]
+evaluate_round 3 received 0 results and 35 timeouts
+time: 1999.836129833
+losses_distributed: [[], [], []]
+metrics_distributed: [[], [], []]
+precision_distributed: [[], [], []]
+recall_distributed: [[], [], []]
+fscore_distributed: [[], [], []]
+evaluate_round 4 received 0 results and 35 timeouts
+time: 2767.616461166
+losses_distributed: [[], [], [], []]
+metrics_distributed: [[], [], [], []]
+precision_distributed: [[], [], [], []]
+recall_distributed: [[], [], [], []]
+fscore_distributed: [[], [], [], []]
+evaluate_round 5 received 0 results and 35 timeouts
+time: 3488.984190375
+losses_distributed: [[], [], [], [], []]
+metrics_distributed: [[], [], [], [], []]
+precision_distributed: [[], [], [], [], []]
+recall_distributed: [[], [], [], [], []]
+fscore_distributed: [[], [], [], [], []]
+evaluate_round 6 received 0 results and 35 timeouts
+time: 4194.089843583
+losses_distributed: [[], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], []]
+evaluate_round 7 received 0 results and 35 timeouts
+time: 4930.960773666
+losses_distributed: [[], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], []]
+evaluate_round 8 received 0 results and 35 timeouts
+time: 5665.667644458
+losses_distributed: [[], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], []]
+evaluate_round 9 received 0 results and 35 timeouts
+time: 6405.932779833
+losses_distributed: [[], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], []]
+evaluate_round 10 received 0 results and 35 timeouts
+time: 7150.71211725
+losses_distributed: [[], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], []]
+evaluate_round 11 received 0 results and 35 timeouts
+time: 7901.161841916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 12 received 0 results and 35 timeouts
+time: 8655.164355041
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 13 received 0 results and 35 timeouts
+time: 9402.336901
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 14 received 0 results and 35 timeouts
+time: 10124.801313041
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 15 received 0 results and 35 timeouts
+time: 10785.631475083
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 16 received 0 results and 35 timeouts
+time: 11437.287985166
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 17 received 0 results and 35 timeouts
+time: 12117.020533875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 18 received 0 results and 35 timeouts
+time: 12757.396695958
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 19 received 0 results and 35 timeouts
+time: 13428.247988791
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 20 received 0 results and 35 timeouts
+time: 14073.577441125
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 21 received 0 results and 35 timeouts
+time: 14721.7777955
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 22 received 0 results and 35 timeouts
+time: 15392.42891525
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 23 received 0 results and 35 timeouts
+time: 16275.408644666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 24 received 0 results and 35 timeouts
+time: 16889.106799708
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 25 received 0 results and 35 timeouts
+time: 17500.253048833
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 26 received 0 results and 35 timeouts
+time: 18107.992408916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 27 received 0 results and 35 timeouts
+time: 18717.722020125
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 28 received 0 results and 35 timeouts
+time: 19328.729140875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 29 received 0 results and 35 timeouts
+time: 19934.950384041
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 30 received 0 results and 35 timeouts
+time: 20537.971198833
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 31 received 0 results and 35 timeouts
+time: 21152.687640708
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 32 received 0 results and 35 timeouts
+time: 21764.866593791
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: DEBUG flower 2023-10-11 22:11:45,337 | server.py:215 | fit_round 42: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:12:45,675 | server.py:229 | fit_round 42 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:12:45,720 | server.py:165 | evaluate_round 42: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:23:00,659 | server.py:179 | evaluate_round 42 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:23:00,660 | server.py:215 | fit_round 43: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:24:02,197 | server.py:229 | fit_round 43 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:24:02,239 | server.py:165 | evaluate_round 43: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:34:11,955 | server.py:179 | evaluate_round 43 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:34:11,956 | server.py:215 | fit_round 44: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:35:12,830 | server.py:229 | fit_round 44 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:35:12,874 | server.py:165 | evaluate_round 44: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:45:22,243 | server.py:179 | evaluate_round 44 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:45:22,243 | server.py:215 | fit_round 45: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:46:23,383 | server.py:229 | fit_round 45 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:46:23,426 | server.py:165 | evaluate_round 45: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:56:42,044 | server.py:179 | evaluate_round 45 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:56:42,044 | server.py:215 | fit_round 46: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 22:57:42,882 | server.py:229 | fit_round 46 received 35 results and 0 failures
+DEBUG flower 2023-10-11 22:57:42,928 | server.py:165 | evaluate_round 46: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 23:07:55,431 | server.py:179 | evaluate_round 46 received 35 results and 0 failures
+DEBUG flower 2023-10-11 23:07:55,431 | server.py:215 | fit_round 47: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 23:08:57,331 | server.py:229 | fit_round 47 received 35 results and 0 failures
+DEBUG flower 2023-10-11 23:08:57,374 | server.py:165 | evaluate_round 47: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 23:19:12,013 | server.py:179 | evaluate_round 47 received 35 results and 0 failures
+DEBUG flower 2023-10-11 23:19:12,014 | server.py:215 | fit_round 48: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 23:20:13,328 | server.py:229 | fit_round 48 received 35 results and 0 failures
+DEBUG flower 2023-10-11 23:20:13,370 | server.py:165 | evaluate_round 48: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 23:30:25,483 | server.py:179 | evaluate_round 48 received 35 results and 0 failures
+DEBUG flower 2023-10-11 23:30:25,484 | server.py:215 | fit_round 49: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 23:31:16,840 | server.py:229 | fit_round 49 received 35 results and 0 failures
+DEBUG flower 2023-10-11 23:31:16,883 | server.py:165 | evaluate_round 49: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 23:40:38,963 | server.py:179 | evaluate_round 49 received 35 results and 0 failures
+DEBUG flower 2023-10-11 23:40:38,965 | server.py:215 | fit_round 50: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 23:41:28,767 | server.py:229 | fit_round 50 received 35 results and 0 failures
+DEBUG flower 2023-10-11 23:41:28,809 | server.py:165 | evaluate_round 50: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 23:50:52,718 | server.py:179 | evaluate_round 50 received 35 results and 0 failures
+DEBUG flower 2023-10-11 23:50:52,718 | server.py:215 | fit_round 51: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-11 23:51:43,298 | server.py:229 | fit_round 51 received 35 results and 0 failures
+DEBUG flower 2023-10-11 23:51:43,339 | server.py:165 | evaluate_round 51: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:01:07,872 | server.py:179 | evaluate_round 51 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:01:07,873 | server.py:215 | fit_round 52: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:02:00,583 | server.py:229 | fit_round 52 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:02:00,624 | server.py:165 | evaluate_round 52: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:11:29,629 | server.py:179 | evaluate_round 52 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:11:29,629 | server.py:215 | fit_round 53: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:12:19,493 | server.py:229 | fit_round 53 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:12:19,534 | server.py:165 | evaluate_round 53: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:21:47,423 | server.py:179 | evaluate_round 53 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:21:47,423 | server.py:215 | fit_round 54: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:22:37,325 | server.py:229 | fit_round 54 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:22:37,366 | server.py:165 | evaluate_round 54: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:32:06,760 | server.py:179 | evaluate_round 54 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:32:06,760 | server.py:215 | fit_round 55: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:32:56,997 | server.py:229 | fit_round 55 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:32:57,038 | server.py:165 | evaluate_round 55: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:42:23,992 | server.py:179 | evaluate_round 55 received 35 results and 0 failures
+[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 33 received 0 results and 35 timeouts
+time: 22409.427540875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 34 received 0 results and 35 timeouts
+time: 23072.857654333
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 35 received 0 results and 35 timeouts
+time: 23751.742021666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 36 received 0 results and 35 timeouts
+time: 24431.3079385
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 37 received 0 results and 35 timeouts
+time: 25103.246504625
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 38 received 0 results and 35 timeouts
+time: 25780.940210541
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 39 received 0 results and 35 timeouts
+time: 26456.3821805
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 40 received 0 results and 35 timeouts
+time: 27128.83164225
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 41 received 0 results and 35 timeouts
+time: 27801.585262333
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 42 received 0 results and 35 timeouts
+time: 28476.905500708
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 43 received 0 results and 35 timeouts
+time: 29148.198056208
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 44 received 0 results and 35 timeouts
+time: 29818.48207975
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 45 received 0 results and 35 timeouts
+time: 30498.279746875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 46 received 0 results and 35 timeouts
+time: 31171.663028666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 47 received 0 results and 35 timeouts
+time: 31848.242094583
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 48 received 0 results and 35 timeouts
+time: 32521.697267291
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 49 received 0 results and 35 timeouts
+time: 33135.172933333
+losses_distributed: DEBUG flower 2023-10-12 00:42:23,993 | server.py:215 | fit_round 56: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:43:15,168 | server.py:229 | fit_round 56 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:43:15,208 | server.py:165 | evaluate_round 56: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:52:41,822 | server.py:179 | evaluate_round 56 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:52:41,822 | server.py:215 | fit_round 57: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 00:53:34,578 | server.py:229 | fit_round 57 received 35 results and 0 failures
+DEBUG flower 2023-10-12 00:53:34,620 | server.py:165 | evaluate_round 57: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:03:03,522 | server.py:179 | evaluate_round 57 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:03:03,523 | server.py:215 | fit_round 58: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:03:54,643 | server.py:229 | fit_round 58 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:03:54,684 | server.py:165 | evaluate_round 58: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:13:21,990 | server.py:179 | evaluate_round 58 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:13:21,990 | server.py:215 | fit_round 59: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:14:11,370 | server.py:229 | fit_round 59 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:14:11,413 | server.py:165 | evaluate_round 59: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:23:37,111 | server.py:179 | evaluate_round 59 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:23:37,111 | server.py:215 | fit_round 60: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:24:27,089 | server.py:229 | fit_round 60 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:24:27,130 | server.py:165 | evaluate_round 60: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:33:58,151 | server.py:179 | evaluate_round 60 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:33:58,151 | server.py:215 | fit_round 61: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:34:49,634 | server.py:229 | fit_round 61 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:34:49,676 | server.py:165 | evaluate_round 61: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:44:16,727 | server.py:179 | evaluate_round 61 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:44:16,728 | server.py:215 | fit_round 62: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:45:07,118 | server.py:229 | fit_round 62 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:45:07,160 | server.py:165 | evaluate_round 62: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:54:34,917 | server.py:179 | evaluate_round 62 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:54:34,917 | server.py:215 | fit_round 63: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 01:55:24,721 | server.py:229 | fit_round 63 received 35 results and 0 failures
+DEBUG flower 2023-10-12 01:55:24,763 | server.py:165 | evaluate_round 63: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:04:49,073 | server.py:179 | evaluate_round 63 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:04:49,074 | server.py:215 | fit_round 64: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:05:39,248 | server.py:229 | fit_round 64 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:05:39,289 | server.py:165 | evaluate_round 64: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:15:03,546 | server.py:179 | evaluate_round 64 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:15:03,546 | server.py:215 | fit_round 65: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:15:53,894 | server.py:229 | fit_round 65 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:15:53,935 | server.py:165 | evaluate_round 65: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:25:22,224 | server.py:179 | evaluate_round 65 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:25:22,226 | server.py:215 | fit_round 66: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:26:13,437 | server.py:229 | fit_round 66 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:26:13,478 | server.py:165 | evaluate_round 66: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:35:41,026 | server.py:179 | evaluate_round 66 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:35:41,027 | server.py:215 | fit_round 67: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:36:31,898 | server.py:229 | fit_round 67 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:36:31,938 | server.py:165 | evaluate_round 67: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:45:56,828 | server.py:179 | evaluate_round 67 received 35 results and 0 failures
+[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 50 received 0 results and 35 timeouts
+time: 33748.922267541
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 51 received 0 results and 35 timeouts
+time: 34364.072466708
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 52 received 0 results and 35 timeouts
+time: 34985.824290916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 53 received 0 results and 35 timeouts
+time: 35603.613679583
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 54 received 0 results and 35 timeouts
+time: 36222.945943833
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 55 received 0 results and 35 timeouts
+time: 36837.998011
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 56 received 0 results and 35 timeouts
+time: 37455.82322525
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 57 received 0 results and 35 timeouts
+time: 38077.524047958
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 58 received 0 results and 35 timeouts
+time: 38695.989322458
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 59 received 0 results and 35 timeouts
+time: 39311.107592041
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 60 received 0 results and 35 timeouts
+time: 39934.362152083
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 61 received 0 results and 35 timeouts
+time: 40552.935800625
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: DEBUG flower 2023-10-12 02:45:56,830 | server.py:215 | fit_round 68: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:46:47,784 | server.py:229 | fit_round 68 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:46:47,827 | server.py:165 | evaluate_round 68: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:56:15,707 | server.py:179 | evaluate_round 68 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:56:15,708 | server.py:215 | fit_round 69: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 02:57:06,776 | server.py:229 | fit_round 69 received 35 results and 0 failures
+DEBUG flower 2023-10-12 02:57:06,819 | server.py:165 | evaluate_round 69: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:06:41,021 | server.py:179 | evaluate_round 69 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:06:41,022 | server.py:215 | fit_round 70: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:07:30,427 | server.py:229 | fit_round 70 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:07:30,473 | server.py:165 | evaluate_round 70: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:17:02,325 | server.py:179 | evaluate_round 70 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:17:02,325 | server.py:215 | fit_round 71: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:17:53,477 | server.py:229 | fit_round 71 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:17:53,521 | server.py:165 | evaluate_round 71: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:27:22,990 | server.py:179 | evaluate_round 71 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:27:22,991 | server.py:215 | fit_round 72: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:28:11,820 | server.py:229 | fit_round 72 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:28:11,862 | server.py:165 | evaluate_round 72: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:37:34,872 | server.py:179 | evaluate_round 72 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:37:34,874 | server.py:215 | fit_round 73: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:38:25,116 | server.py:229 | fit_round 73 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:38:25,159 | server.py:165 | evaluate_round 73: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:47:50,229 | server.py:179 | evaluate_round 73 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:47:50,229 | server.py:215 | fit_round 74: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:48:40,448 | server.py:229 | fit_round 74 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:48:40,489 | server.py:165 | evaluate_round 74: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:58:06,721 | server.py:179 | evaluate_round 74 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:58:06,722 | server.py:215 | fit_round 75: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 03:58:57,697 | server.py:229 | fit_round 75 received 35 results and 0 failures
+DEBUG flower 2023-10-12 03:58:57,986 | server.py:165 | evaluate_round 75: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 04:08:20,063 | server.py:179 | evaluate_round 75 received 35 results and 0 failures
+DEBUG flower 2023-10-12 04:08:20,064 | server.py:215 | fit_round 76: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 04:09:12,145 | server.py:229 | fit_round 76 received 35 results and 0 failures
+DEBUG flower 2023-10-12 04:09:12,186 | server.py:165 | evaluate_round 76: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 04:18:40,886 | server.py:179 | evaluate_round 76 received 35 results and 0 failures
+DEBUG flower 2023-10-12 04:18:40,886 | server.py:215 | fit_round 77: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 04:19:32,707 | server.py:229 | fit_round 77 received 35 results and 0 failures
+DEBUG flower 2023-10-12 04:19:32,753 | server.py:165 | evaluate_round 77: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 04:29:05,533 | server.py:179 | evaluate_round 77 received 35 results and 0 failures
+[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 62 received 0 results and 35 timeouts
+time: 41171.122951958
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 63 received 0 results and 35 timeouts
+time: 41785.277328
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 64 received 0 results and 35 timeouts
+time: 42399.747233708
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 65 received 0 results and 35 timeouts
+time: 43018.423488291
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 66 received 0 results and 35 timeouts
+time: 43637.222646625
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 67 received 0 results and 35 timeouts
+time: 44253.035166416
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 68 received 0 results and 35 timeouts
+time: 44871.913094791
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 69 received 0 results and 35 timeouts
+time: 45495.008955583
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 70 received 0 results and 35 timeouts
+time: 46116.311306208
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 71 received 0 results and 35 timeouts
+time: 46736.976273541
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 72 received 0 results and 35 timeouts
+time: 47351.079060791
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: DEBUG flower 2023-10-12 04:29:05,533 | server.py:215 | fit_round 78: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 04:29:56,843 | server.py:229 | fit_round 78 received 35 results and 0 failures
+DEBUG flower 2023-10-12 04:29:56,887 | server.py:165 | evaluate_round 78: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 04:39:26,235 | server.py:179 | evaluate_round 78 received 35 results and 0 failures
+DEBUG flower 2023-10-12 04:39:26,235 | server.py:215 | fit_round 79: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 04:40:21,419 | server.py:229 | fit_round 79 received 35 results and 0 failures
+DEBUG flower 2023-10-12 04:40:21,463 | server.py:165 | evaluate_round 79: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 04:49:50,412 | server.py:179 | evaluate_round 79 received 35 results and 0 failures
+DEBUG flower 2023-10-12 04:49:50,413 | server.py:215 | fit_round 80: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 04:50:41,895 | server.py:229 | fit_round 80 received 35 results and 0 failures
+DEBUG flower 2023-10-12 04:50:41,936 | server.py:165 | evaluate_round 80: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:00:09,788 | server.py:179 | evaluate_round 80 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:00:09,788 | server.py:215 | fit_round 81: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:01:00,066 | server.py:229 | fit_round 81 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:01:00,110 | server.py:165 | evaluate_round 81: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:10:23,592 | server.py:179 | evaluate_round 81 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:10:23,593 | server.py:215 | fit_round 82: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:11:13,707 | server.py:229 | fit_round 82 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:11:13,748 | server.py:165 | evaluate_round 82: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:20:43,037 | server.py:179 | evaluate_round 82 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:20:43,037 | server.py:215 | fit_round 83: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:21:32,782 | server.py:229 | fit_round 83 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:21:32,823 | server.py:165 | evaluate_round 83: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:30:58,894 | server.py:179 | evaluate_round 83 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:30:58,895 | server.py:215 | fit_round 84: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:31:49,728 | server.py:229 | fit_round 84 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:31:49,770 | server.py:165 | evaluate_round 84: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:41:18,502 | server.py:179 | evaluate_round 84 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:41:18,502 | server.py:215 | fit_round 85: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:42:10,140 | server.py:229 | fit_round 85 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:42:10,183 | server.py:165 | evaluate_round 85: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:51:39,992 | server.py:179 | evaluate_round 85 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:51:39,992 | server.py:215 | fit_round 86: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 05:52:30,063 | server.py:229 | fit_round 86 received 35 results and 0 failures
+DEBUG flower 2023-10-12 05:52:30,107 | server.py:165 | evaluate_round 86: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:01:59,511 | server.py:179 | evaluate_round 86 received 35 results and 0 failures
+[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 73 received 0 results and 35 timeouts
+time: 47966.424947875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 74 received 0 results and 35 timeouts
+time: 48582.912599875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 75 received 0 results and 35 timeouts
+time: 49196.249517291
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 76 received 0 results and 35 timeouts
+time: 49817.061825083
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 77 received 0 results and 35 timeouts
+time: 50441.702705541
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 78 received 0 results and 35 timeouts
+time: 51062.398235125
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 79 received 0 results and 35 timeouts
+time: 51686.581211541
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 80 received 0 results and 35 timeouts
+time: 52305.952406416
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 81 received 0 results and 35 timeouts
+time: 52919.75287175
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: DEBUG flower 2023-10-12 06:01:59,512 | server.py:215 | fit_round 87: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:02:49,623 | server.py:229 | fit_round 87 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:02:49,667 | server.py:165 | evaluate_round 87: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:12:14,556 | server.py:179 | evaluate_round 87 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:12:14,556 | server.py:215 | fit_round 88: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:13:04,373 | server.py:229 | fit_round 88 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:13:04,415 | server.py:165 | evaluate_round 88: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:22:31,251 | server.py:179 | evaluate_round 88 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:22:31,252 | server.py:215 | fit_round 89: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:23:22,847 | server.py:229 | fit_round 89 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:23:22,892 | server.py:165 | evaluate_round 89: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:32:48,422 | server.py:179 | evaluate_round 89 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:32:48,423 | server.py:215 | fit_round 90: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:33:39,123 | server.py:229 | fit_round 90 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:33:39,164 | server.py:165 | evaluate_round 90: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:43:07,237 | server.py:179 | evaluate_round 90 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:43:07,238 | server.py:215 | fit_round 91: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:43:59,691 | server.py:229 | fit_round 91 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:43:59,730 | server.py:165 | evaluate_round 91: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:53:29,650 | server.py:179 | evaluate_round 91 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:53:29,651 | server.py:215 | fit_round 92: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 06:54:19,877 | server.py:229 | fit_round 92 received 35 results and 0 failures
+DEBUG flower 2023-10-12 06:54:19,920 | server.py:165 | evaluate_round 92: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:03:46,495 | server.py:179 | evaluate_round 92 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:03:46,495 | server.py:215 | fit_round 93: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:04:36,816 | server.py:229 | fit_round 93 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:04:36,860 | server.py:165 | evaluate_round 93: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:14:03,142 | server.py:179 | evaluate_round 93 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:14:03,142 | server.py:215 | fit_round 94: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:14:54,649 | server.py:229 | fit_round 94 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:14:54,690 | server.py:165 | evaluate_round 94: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:24:23,347 | server.py:179 | evaluate_round 94 received 35 results and 0 failures
+[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 82 received 0 results and 35 timeouts
+time: 53539.1943445
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 83 received 0 results and 35 timeouts
+time: 54155.047654875
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 84 received 0 results and 35 timeouts
+time: 54774.658966291
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 85 received 0 results and 35 timeouts
+time: 55396.146047041
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 86 received 0 results and 35 timeouts
+time: 56015.66249925
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 87 received 0 results and 35 timeouts
+time: 56630.705240916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 88 received 0 results and 35 timeouts
+time: 57247.397951333
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 89 received 0 results and 35 timeouts
+time: 57864.56672075
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 90 received 0 results and 35 timeouts
+time: 58483.378363666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: DEBUG flower 2023-10-12 07:24:23,349 | server.py:215 | fit_round 95: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:25:13,185 | server.py:229 | fit_round 95 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:25:13,225 | server.py:165 | evaluate_round 95: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:34:38,321 | server.py:179 | evaluate_round 95 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:34:38,321 | server.py:215 | fit_round 96: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:35:28,211 | server.py:229 | fit_round 96 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:35:28,250 | server.py:165 | evaluate_round 96: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:44:54,577 | server.py:179 | evaluate_round 96 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:44:54,578 | server.py:215 | fit_round 97: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:45:46,126 | server.py:229 | fit_round 97 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:45:46,169 | server.py:165 | evaluate_round 97: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:55:17,198 | server.py:179 | evaluate_round 97 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:55:17,198 | server.py:215 | fit_round 98: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 07:56:07,357 | server.py:229 | fit_round 98 received 35 results and 0 failures
+DEBUG flower 2023-10-12 07:56:07,398 | server.py:165 | evaluate_round 98: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 08:05:35,713 | server.py:179 | evaluate_round 98 received 35 results and 0 failures
+DEBUG flower 2023-10-12 08:05:35,714 | server.py:215 | fit_round 99: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 08:06:27,447 | server.py:229 | fit_round 99 received 35 results and 0 failures
+DEBUG flower 2023-10-12 08:06:27,490 | server.py:165 | evaluate_round 99: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 08:15:56,419 | server.py:179 | evaluate_round 99 received 35 results and 0 failures
+DEBUG flower 2023-10-12 08:15:56,421 | server.py:215 | fit_round 100: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 08:16:48,613 | server.py:229 | fit_round 100 received 35 results and 0 failures
+DEBUG flower 2023-10-12 08:16:48,655 | server.py:165 | evaluate_round 100: strategy sampled 35 clients (out of 35)
+DEBUG flower 2023-10-12 08:26:16,992 | server.py:179 | evaluate_round 100 received 35 results and 0 failures
+INFO flower 2023-10-12 08:26:16,993 | server.py:144 | FL finished in 64667.397139792
+INFO flower 2023-10-12 08:26:17,005 | app.py:192 | app_fit: losses_distributed [(1, inf), (2, inf), (3, inf), (4, inf), (5, inf), (6, inf), (7, inf), (8, inf), (9, inf), (10, inf), (11, inf), (12, inf), (13, inf), (14, inf), (15, inf), (16, inf), (17, inf), (18, inf), (19, inf), (20, inf), (21, inf), (22, inf), (23, inf), (24, inf), (25, inf), (26, inf), (27, inf), (28, inf), (29, inf), (30, inf), (31, inf), (32, inf), (33, inf), (34, inf), (35, inf), (36, inf), (37, inf), (38, inf), (39, inf), (40, inf), (41, inf), (42, inf), (43, inf), (44, inf), (45, inf), (46, inf), (47, inf), (48, inf), (49, inf), (50, inf), (51, inf), (52, inf), (53, inf), (54, inf), (55, inf), (56, inf), (57, inf), (58, inf), (59, inf), (60, inf), (61, inf), (62, inf), (63, inf), (64, inf), (65, inf), (66, inf), (67, inf), (68, inf), (69, inf), (70, inf), (71, inf), (72, inf), (73, inf), (74, inf), (75, inf), (76, inf), (77, inf), (78, inf), (79, inf), (80, inf), (81, inf), (82, inf), (83, inf), (84, inf), (85, inf), (86, inf), (87, inf), (88, inf), (89, inf), (90, inf), (91, inf), (92, inf), (93, inf), (94, inf), (95, inf), (96, inf), (97, inf), (98, inf), (99, inf), (100, inf)]
+INFO flower 2023-10-12 08:26:17,006 | app.py:193 | app_fit: metrics_distributed {'accuracy': [(1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (6, 0), (7, 0), (8, 0), (9, 0), (10, 0), (11, 0), (12, 0), (13, 0), (14, 0), (15, 0), (16, 0), (17, 0), (18, 0), (19, 0), (20, 0), (21, 0), (22, 0), (23, 0), (24, 0), (25, 0), (26, 0), (27, 0), (28, 0), (29, 0), (30, 0), (31, 0), (32, 0), (33, 0), (34, 0), (35, 0), (36, 0), (37, 0), (38, 0), (39, 0), (40, 0), (41, 0), (42, 0), (43, 0), (44, 0), (45, 0), (46, 0), (47, 0), (48, 0), (49, 0), (50, 0), (51, 0), (52, 0), (53, 0), (54, 0), (55, 0), (56, 0), (57, 0), (58, 0), (59, 0), (60, 0), (61, 0), (62, 0), (63, 0), (64, 0), (65, 0), (66, 0), (67, 0), (68, 0), (69, 0), (70, 0), (71, 0), (72, 0), (73, 0), (74, 0), (75, 0), (76, 0), (77, 0), (78, 0), (79, 0), (80, 0), (81, 0), (82, 0), (83, 0), (84, 0), (85, 0), (86, 0), (87, 0), (88, 0), (89, 0), (90, 0), (91, 0), (92, 0), (93, 0), (94, 0), (95, 0), (96, 0), (97, 0), (98, 0), (99, 0), (100, 0)]}
+INFO flower 2023-10-12 08:26:17,006 | app.py:194 | app_fit: losses_centralized []
+INFO flower 2023-10-12 08:26:17,006 | app.py:195 | app_fit: metrics_centralized {}
+[[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 91 received 0 results and 35 timeouts
+time: 59105.804646166
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 92 received 0 results and 35 timeouts
+time: 59722.648778541
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 93 received 0 results and 35 timeouts
+time: 60339.295358375
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 94 received 0 results and 35 timeouts
+time: 60959.499941208
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 95 received 0 results and 35 timeouts
+time: 61574.473163666
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 96 received 0 results and 35 timeouts
+time: 62190.732739375
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 97 received 0 results and 35 timeouts
+time: 62813.353369208
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 98 received 0 results and 35 timeouts
+time: 63431.8691045
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 99 received 0 results and 35 timeouts
+time: 64052.572314916
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+evaluate_round 100 received 0 results and 35 timeouts
+time: 64673.143186125
+losses_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+precision_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+recall_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+fscore_distributed: [[], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []]
+metrics_distributed 100
+loss_distributed 100
+precision_distributed 100
+recall_distributed 100
+fscore_distributed 100
+finish mean
